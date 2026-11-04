@@ -1,0 +1,49 @@
+'use client';
+import {useEffect,useMemo,useState} from 'react';
+import {CartesianGrid,Line,LineChart,ResponsiveContainer,Tooltip,XAxis,YAxis} from 'recharts';
+import {api,methodName,number,type Experiment,type GameName,type Summary} from '../lib/api';
+import {ErrorBox,Loading} from './common';
+
+const colors:Record<string,string>={cfr:'var(--blue)',cfr_plus:'var(--orange)',deep_cfr:'var(--purple)'};
+type Axis='iteration'|'nodes_touched'|'elapsed_seconds';
+type Latency={experiment_id:string;mean_latency_us:number;p95_latency_us:number};
+
+function Plot({experiments,x,metric,title,log=false}:{experiments:Experiment[];x:Axis;metric:string;title:string;log?:boolean}) {
+  const data=useMemo(()=>{
+    const points=new Map<number,Record<string,number>>();
+    for(const experiment of experiments)for(const row of experiment.metrics){const horizontal=Number(row[x]);const vertical=row[metric];if(horizontal>0 && typeof vertical==='number' && Number.isFinite(vertical)){const point=points.get(horizontal)||{x:horizontal};point[experiment.experiment_id]=vertical;points.set(horizontal,point);}}
+    return Array.from(points.values()).sort((a,b)=>a.x-b.x);
+  },[experiments,x,metric]);
+  return <div className="chart-frame" role="img" aria-label={title}><ResponsiveContainer width="100%" height="100%"><LineChart data={data} margin={{top:15,right:18,left:5,bottom:5}}><CartesianGrid strokeDasharray="3 5" stroke="var(--line)"/><XAxis dataKey="x" type="number" scale={x==='iteration'?'log':'linear'} domain={['dataMin','dataMax']} tickFormatter={v=>number(v,1)} tick={{fontSize:11,fill:'var(--muted)'}} axisLine={false} tickLine={false}/><YAxis scale={log?'log':'linear'} domain={log?['auto','auto']:[0,'auto']} tickFormatter={v=>number(v,2)} tick={{fontSize:11,fill:'var(--muted)'}} axisLine={false} tickLine={false} width={60}/><Tooltip contentStyle={{background:'var(--surface)',color:'var(--ink)',border:'1px solid var(--line)',borderRadius:4,fontSize:12}} formatter={v=>typeof v==='number'?number(v,7):String(v)} labelFormatter={value=>`${x==='iteration'?'Iteration':x==='nodes_touched'?'Histories visited':'Offline seconds'}: ${number(Number(value),3)}`}/>{experiments.map(e=><Line key={e.experiment_id} name={methodName(e.config.algorithm)+(e.config.algorithm==='deep_cfr'?` · seed ${e.config.seed}`:'')} dataKey={e.experiment_id} type="linear" connectNulls dot={false} activeDot={{r:4}} isAnimationActive={false} stroke={colors[e.config.algorithm]} strokeWidth={e.config.algorithm==='deep_cfr'?1.8:2.5} strokeOpacity={e.config.algorithm==='deep_cfr'?.75:1}/>)}</LineChart></ResponsiveContainer></div>;
+}
+
+export default function Dashboard() {
+  const [summary,setSummary]=useState<Summary|null>(null);
+  const [experiments,setExperiments]=useState<Experiment[]>([]);
+  const [benchmark,setBenchmark]=useState<Latency[]>([]);
+  const [game,setGame]=useState<GameName>('leduc');
+  const [axis,setAxis]=useState<Axis>('iteration');
+  const [error,setError]=useState('');
+  const [loading,setLoading]=useState(true);
+  const [retry,setRetry]=useState(0);
+  const [record,setRecord]=useState('');
+  useEffect(()=>{let cancelled=false;setLoading(true);setError('');api<Summary>('/research-summary').then(async data=>{const [runs,bench]=await Promise.all([Promise.all(data.runs.map(run=>api<Experiment>(`/experiments/${run.experiment_id}`))),api<{metrics:Latency[]}>(`/experiments/${data.benchmark_experiment}`)]);if(!cancelled){setSummary(data);setExperiments(runs);setBenchmark(bench.metrics);setRecord(runs.find(r=>r.config.game==='leduc')?.experiment_id||'');setLoading(false);}}).catch(e=>{if(!cancelled){setError(e.message);setLoading(false);}});return()=>{cancelled=true;};},[retry]);
+  if(error)return <ErrorBox error={error} retry={()=>setRetry(v=>v+1)}/>;
+  if(loading||!summary)return <Loading label="Loading the recorded study…"/>;
+  const runs=experiments.filter(e=>e.config.game===game);
+  const neural=runs.filter(e=>e.config.algorithm==='deep_cfr');
+  const totals=summary.summaries.filter(s=>s.game===game);
+  const best=[...totals].sort((a,b)=>a.mean_exploitability-b.mean_exploitability)[0];
+  const neuralSummary=totals.find(s=>s.algorithm==='deep_cfr')!;
+  const tournament=summary.tournaments.filter(t=>t.game===game && !/deep_cfr_s[1-9]/.test(t.agent_a));
+  const selected=experiments.find(e=>e.experiment_id===record);
+  return <>
+    <div className="dashboard-top"><div className="section-intro"><h2>Kuhn and Leduc</h2><p>Exact evaluation of saved policies, including variation across neural seeds.</p></div><label>Evaluation game<select aria-label="Dashboard game" value={game} onChange={e=>setGame(e.target.value as GameName)}><option value="leduc">Leduc Hold’em</option><option value="kuhn">Kuhn Poker</option></select></label></div>
+    <div className="stat-grid"><section className="panel stat"><span>Lowest measured exploitability</span><strong>{number(best.mean_exploitability,6)}</strong><small>{methodName(best.algorithm)} · chips per hand</small></section><section className="panel stat"><span>Deep CFR · mean across seeds</span><strong>{number(neuralSummary.mean_exploitability,5)}</strong><small>{neuralSummary.run_count} seeds · 95% interval [{neuralSummary.seed_ci95?.map(v=>number(v,4)).join(', ')}]</small></section><section className="panel stat"><span>Study protocol</span><strong className="profile-label">{summary.registration.selected_profile} profile</strong><small>CPU · configs frozen before judged runs</small></section></div>
+    <section className="panel convergence-panel"><div className="section-heading"><h2>Exploitability over training</h2><label>Horizontal axis<select aria-label="Compute axis" value={axis} onChange={e=>setAxis(e.target.value as Axis)}><option value="iteration">Iterations</option><option value="nodes_touched">Histories visited</option><option value="elapsed_seconds">Total offline time</option></select></label></div><div className="chart-legend">{['cfr','cfr_plus','deep_cfr'].map(a=><span key={a}><i style={{background:colors[a]}}/>{methodName(a)}</span>)}<small>Each neural line is one seed. Lower is better.</small></div><Plot experiments={runs} x={axis} metric="exploitability" title="Exploitability convergence" log/><p className="chart-note">Chips per hand · logarithmic vertical scale. An iteration is different work for each method. Offline time includes neural policy fitting and evaluation; history counts exclude gradient updates.</p></section>
+    <div className="loss-grid">{([['advantage_loss','Advantage-network loss'],['strategy_loss','Average-policy-network loss']] as [string,string][]).map(([metric,title])=><section className="panel" key={metric}><h2>{title}</h2><Plot experiments={neural} x="iteration" metric={metric} title={title}/><p className="chart-note">Iteration-weighted squared error from self-play memory.</p></section>)}</div>
+    <section className="panel results-panel"><h2>Final results</h2><div className="table-scroll"><table><thead><tr><th>Method / seed</th><th>Exploitability</th><th>NashConv</th><th>Offline time</th><th>Sampled peak RSS</th><th>SGD samples</th><th>Mean model latency</th></tr></thead><tbody>{summary.runs.filter(r=>r.game===game).map(run=>{const latency=benchmark.find(b=>String(b.experiment_id)===run.experiment_id);return <tr key={run.experiment_id}><td><a href={`/experiments/${run.experiment_id}`} target="_blank" rel="noreferrer">{methodName(run.algorithm)}{run.algorithm==='deep_cfr'?` · ${run.seed}`:''}</a></td><td>{number(run.exploitability,6)}</td><td>{number(run.nash_conv,6)}</td><td>{number(run.offline_wall_seconds,2)} s</td><td>{number(run.peak_sampled_rss_bytes/1024**2,1)} MiB</td><td>{run.algorithm==='deep_cfr'?number(run.samples_processed,0):'—'}</td><td>{latency?`${number(latency.mean_latency_us,2)} μs`:'Unavailable'}</td></tr>;})}</tbody></table></div><p className="chart-note">Full-traversal CFR and CFR+ are deterministic. RSS is sampled at iteration boundaries. SGD counts include advantage and auxiliary/final strategy fits. Latency calls the underlying model directly; the API serves frozen evaluated policy tables.</p></section>
+    <section className="panel results-panel"><div className="section-heading"><h2>Head-to-head results</h2><a className="text-button" href={`/experiments/${summary.tournament_experiment}`} target="_blank" rel="noreferrer">Raw record</a></div><p className="muted">Payoff for agent A per hand, with a 95% confidence interval over duplicate-deal pairs. The demo uses neural seed zero, selected before training.</p><div className="table-scroll"><table><thead><tr><th>Agent A</th><th>Agent B</th><th>Payoff / hand</th><th>95% confidence interval</th><th>Exact expected payoff</th><th>Deal pairs</th></tr></thead><tbody>{tournament.map(t=><tr key={t.agent_a+t.agent_b}><td>{methodName(t.agent_a)}</td><td>{methodName(t.agent_b)}</td><td className={t.payoff_per_hand>=0?'positive':'negative'}>{number(t.payoff_per_hand,4)}</td><td>[{number(t.ci_low,4)}, {number(t.ci_high,4)}]</td><td>{number(t.exact_payoff_per_hand,4)}</td><td>{number(t.pairs,0)}</td></tr>)}</tbody></table></div></section>
+    <section className="panel provenance-panel"><h2>Experiment details</h2><label>Recorded run<select aria-label="Recorded run" value={record} onChange={e=>setRecord(e.target.value)}>{experiments.map(e=><option key={e.experiment_id} value={e.experiment_id}>{e.config.game} · {methodName(e.config.algorithm)} · seed {e.config.seed}</option>)}</select></label>{selected && <details><summary>Configuration & provenance</summary><pre>{JSON.stringify({experiment_id:selected.experiment_id,config:selected.config,provenance:selected.provenance},null,2)}</pre></details>}<p className="chart-note">Seed, frozen configuration, source fingerprint, dependency versions, metrics, and checkpoint references are recorded for every run. Timings and memory are measurements, not deterministic outputs.</p></section>
+  </>;
+}

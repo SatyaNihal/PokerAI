@@ -1,0 +1,1383 @@
+{
+  "game": "holdem",
+  "method": "Deep CFR",
+  "evaluation": "Approximate; exact exploitability unavailable",
+  "config": {
+    "game": "holdem",
+    "algorithm": "deep_cfr",
+    "seed": 0,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "iterations": 30,
+    "traversals": 30,
+    "hidden_size": 64,
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "gradient_clip": 1.0,
+    "advantage_steps": 250,
+    "strategy_steps": 2000,
+    "eval_strategy_steps": 500,
+    "advantage_capacity": 20000,
+    "strategy_capacity": 40000,
+    "evaluation_grid": [
+      1,
+      5,
+      10,
+      20,
+      30
+    ],
+    "validation": {
+      "seed": 731,
+      "reference_hands": 5000,
+      "engine_atol": 1e-12,
+      "reload_atol": 0.0,
+      "reproducibility_atol": 0.0,
+      "policy_samples": 256,
+      "serving_atol": 1e-06
+    },
+    "evaluation": {
+      "seed": 9182,
+      "tournament_pairs": 2000,
+      "curve_pairs": 256,
+      "confidence": 0.95,
+      "response_iterations": 10,
+      "response_traversals": 20,
+      "response_advantage_steps": 250,
+      "response_pairs": 2000,
+      "exact_exploitability": false
+    }
+  },
+  "registration": {
+    "pilot": "20261103T215257735568Z-holdem-holdem_throughput_pilot-s0",
+    "config": {
+      "game": "holdem",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "iterations": 30,
+      "traversals": 30,
+      "hidden_size": 64,
+      "learning_rate": 0.001,
+      "batch_size": 256,
+      "gradient_clip": 1.0,
+      "advantage_steps": 250,
+      "strategy_steps": 2000,
+      "eval_strategy_steps": 500,
+      "advantage_capacity": 20000,
+      "strategy_capacity": 40000,
+      "evaluation_grid": [
+        1,
+        5,
+        10,
+        20,
+        30
+      ],
+      "validation": {
+        "seed": 731,
+        "reference_hands": 5000,
+        "engine_atol": 1e-12,
+        "reload_atol": 0.0,
+        "reproducibility_atol": 0.0,
+        "policy_samples": 256,
+        "serving_atol": 1e-06
+      },
+      "evaluation": {
+        "seed": 9182,
+        "tournament_pairs": 2000,
+        "curve_pairs": 256,
+        "confidence": 0.95,
+        "response_iterations": 10,
+        "response_traversals": 20,
+        "response_advantage_steps": 250,
+        "response_pairs": 2000,
+        "exact_exploitability": false
+      }
+    },
+    "config_sha256": "ee86b55b10cf5ba7a056d9faece36b0225d7a53641a91e350881ef8bd92b7fe5",
+    "scientific_sources": {
+      "engine/holdem.py": "e306b0947802e67bd0e76ca02c2d7a649968ca0b2bf902aa59265ce7c6d06314",
+      "engine/hand_evaluator.py": "ea62fbc19bc978a9f091abc04ed131e34249b48f7308460f4c669e6f3b28232c",
+      "agents/holdem_deep_cfr.py": "602bccfd692f5e8e38f01a6102317026b95a8d3a88c68d795b6accad30d8f112",
+      "training/sampled_self_play.py": "95bdf9b49cc816d23fc6ab2a2c4c2349f797493f26d2727d1e8c755a4bff7d78",
+      "evaluation/holdem.py": "89ebe1075ed75da6c18ce4d9d9e5eddf048a74b0226d95ecb4f59d233fe13837"
+    },
+    "demo_seed": 0,
+    "status": "registered_before_main_study"
+  },
+  "runs": [
+    {
+      "experiment_id": "20261103T215312593360Z-holdem-deep_cfr-s0",
+      "seed": 0,
+      "checkpoint": "checkpoints/20261103T215312593360Z-holdem-deep_cfr-s0",
+      "wall_clock_seconds": 63.14677683299669,
+      "metrics": [
+        {
+          "iteration": 1,
+          "nodes_touched": 19993,
+          "samples_processed": 256000,
+          "training_seconds": 1.6792096250064787,
+          "evaluation_seconds": 0.7903541249979753,
+          "peak_sampled_rss_bytes": 274038784,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.263671875,
+              "standard_error": 0.35580902679438664,
+              "ci_low": 0.5662989971087553,
+              "ci_high": 1.9610447528912447,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.3203125,
+              "standard_error": 0.25194507962340934,
+              "ci_low": -0.8141157821439584,
+              "ci_high": 0.17349078214395847,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 968.8188041365445,
+          "strategy_loss": 0.0956468329904601,
+          "advantage_samples_generated": 4933,
+          "strategy_samples_generated": 5509,
+          "advantage_samples_processed": 128000,
+          "strategy_samples_processed": 128000,
+          "advantage_memory_sizes": [
+            120,
+            4813
+          ],
+          "strategy_memory_size": 5509,
+          "elapsed_seconds": 3.252739000003203
+        },
+        {
+          "iteration": 5,
+          "nodes_touched": 107068,
+          "samples_processed": 896000,
+          "training_seconds": 7.816585917011253,
+          "evaluation_seconds": 1.5381336669961456,
+          "peak_sampled_rss_bytes": 285245440,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.755859375,
+              "standard_error": 0.36234765246373385,
+              "ci_low": 1.0456710262884457,
+              "ci_high": 2.4660477237115543,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.279296875,
+              "standard_error": 0.23190587545605681,
+              "ci_low": -0.7338240386971026,
+              "ci_high": 0.17523028869710255,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 586.190109161377,
+          "strategy_loss": 0.1693850675523281,
+          "advantage_samples_generated": 26463,
+          "strategy_samples_generated": 29650,
+          "advantage_samples_processed": 640000,
+          "strategy_samples_processed": 256000,
+          "advantage_memory_sizes": [
+            863,
+            20000
+          ],
+          "strategy_memory_size": 29650,
+          "elapsed_seconds": 10.139248083003622
+        },
+        {
+          "iteration": 10,
+          "nodes_touched": 233817,
+          "samples_processed": 1664000,
+          "training_seconds": 16.75053929200658,
+          "evaluation_seconds": 2.2631817089932156,
+          "peak_sampled_rss_bytes": 285245440,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 2.18359375,
+              "standard_error": 0.3361372062292592,
+              "ci_low": 1.5247769319267395,
+              "ci_high": 2.8424105680732605,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.271484375,
+              "standard_error": 0.23509104136884018,
+              "ci_low": -0.18928559917094256,
+              "ci_high": 0.7322543491709426,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 797.198096572876,
+          "strategy_loss": 0.11030796006321907,
+          "advantage_samples_generated": 58260,
+          "strategy_samples_generated": 64000,
+          "advantage_samples_processed": 1280000,
+          "strategy_samples_processed": 384000,
+          "advantage_memory_sizes": [
+            2636,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 19.80099275000248
+        },
+        {
+          "iteration": 20,
+          "nodes_touched": 503854,
+          "samples_processed": 3072000,
+          "training_seconds": 35.659026708002784,
+          "evaluation_seconds": 3.0246551259988337,
+          "peak_sampled_rss_bytes": 428064768,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 3.375,
+              "standard_error": 0.37711820064126045,
+              "ci_low": 2.6358619088285797,
+              "ci_high": 4.11413809117142,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.138671875,
+              "standard_error": 0.19894895195663403,
+              "ci_low": -0.25126090559699216,
+              "ci_high": 0.5286046555969921,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 1271.302438720703,
+          "strategy_loss": 0.09004855546355248,
+          "advantage_samples_generated": 125205,
+          "strategy_samples_generated": 137635,
+          "advantage_samples_processed": 2560000,
+          "strategy_samples_processed": 512000,
+          "advantage_memory_sizes": [
+            10335,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 40.254247165998095
+        },
+        {
+          "iteration": 30,
+          "nodes_touched": 724472,
+          "samples_processed": 4864000,
+          "training_seconds": 51.61054674801562,
+          "evaluation_seconds": 7.62334995999845,
+          "peak_sampled_rss_bytes": 428064768,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 2.2695,
+              "standard_error": 0.12858830565481288,
+              "ci_low": 2.0174715520835385,
+              "ci_high": 2.5215284479164612,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.108,
+              "standard_error": 0.07708121533083426,
+              "ci_low": -0.04307640593301178,
+              "ci_high": 0.2590764059330118,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 1077.8613280029297,
+          "strategy_loss": 0.04408401787932962,
+          "advantage_samples_generated": 179978,
+          "strategy_samples_generated": 197920,
+          "advantage_samples_processed": 3840000,
+          "strategy_samples_processed": 1024000,
+          "advantage_memory_sizes": [
+            15328,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 60.80739129099675
+        }
+      ]
+    },
+    {
+      "experiment_id": "20261103T215431091790Z-holdem-deep_cfr-s1",
+      "seed": 1,
+      "checkpoint": "checkpoints/20261103T215431091790Z-holdem-deep_cfr-s1",
+      "wall_clock_seconds": 41.56995795900002,
+      "metrics": [
+        {
+          "iteration": 1,
+          "nodes_touched": 17772,
+          "samples_processed": 256000,
+          "training_seconds": 1.0900428330060095,
+          "evaluation_seconds": 0.7064893339993432,
+          "peak_sampled_rss_bytes": 235044864,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.41015625,
+              "standard_error": 0.29283554978517223,
+              "ci_low": 0.8362091190280766,
+              "ci_high": 1.9841033809719235,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.158203125,
+              "standard_error": 0.2540976312576448,
+              "ci_low": -0.6562253308219228,
+              "ci_high": 0.33981908082192275,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 919.1487885076925,
+          "strategy_loss": 0.06620921837212518,
+          "advantage_samples_generated": 4366,
+          "strategy_samples_generated": 4908,
+          "advantage_samples_processed": 128000,
+          "strategy_samples_processed": 128000,
+          "advantage_memory_sizes": [
+            120,
+            4246
+          ],
+          "strategy_memory_size": 4908,
+          "elapsed_seconds": 2.611758999999438
+        },
+        {
+          "iteration": 5,
+          "nodes_touched": 85113,
+          "samples_processed": 896000,
+          "training_seconds": 6.185586999999941,
+          "evaluation_seconds": 1.4037209169982816,
+          "peak_sampled_rss_bytes": 235044864,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.884765625,
+              "standard_error": 0.3117601680107823,
+              "ci_low": 0.27372692388471054,
+              "ci_high": 1.4958043261152896,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.05078125,
+              "standard_error": 0.23212242176251702,
+              "ci_low": -0.4041703366587497,
+              "ci_high": 0.5057328366587497,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 616.6789467773438,
+          "strategy_loss": 0.1707934552282095,
+          "advantage_samples_generated": 20899,
+          "strategy_samples_generated": 23479,
+          "advantage_samples_processed": 640000,
+          "strategy_samples_processed": 256000,
+          "advantage_memory_sizes": [
+            1053,
+            19846
+          ],
+          "strategy_memory_size": 23479,
+          "elapsed_seconds": 8.406175333999272
+        },
+        {
+          "iteration": 10,
+          "nodes_touched": 167071,
+          "samples_processed": 1664000,
+          "training_seconds": 12.339118500014592,
+          "evaluation_seconds": 2.112763959004951,
+          "peak_sampled_rss_bytes": 235044864,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.109375,
+              "standard_error": 0.30439080262557083,
+              "ci_low": 0.5127799896286411,
+              "ci_high": 1.7059700103713589,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.00390625,
+              "standard_error": 0.21322670197731175,
+              "ci_low": -0.41401040641778647,
+              "ci_high": 0.42182290641778647,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 661.2188320007324,
+          "strategy_loss": 0.13116178381443025,
+          "advantage_samples_generated": 40999,
+          "strategy_samples_generated": 45986,
+          "advantage_samples_processed": 1280000,
+          "strategy_samples_processed": 384000,
+          "advantage_memory_sizes": [
+            2908,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 15.270328792001237
+        },
+        {
+          "iteration": 20,
+          "nodes_touched": 286708,
+          "samples_processed": 3072000,
+          "training_seconds": 22.60233174901805,
+          "evaluation_seconds": 2.911192709005263,
+          "peak_sampled_rss_bytes": 650854400,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.517578125,
+              "standard_error": 0.3366449521556041,
+              "ci_low": 0.8577661431978065,
+              "ci_high": 2.1773901068021937,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.05859375,
+              "standard_error": 0.16773346208723047,
+              "ci_low": -0.27015779469318624,
+              "ci_high": 0.38734529469318624,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 714.5738601074219,
+          "strategy_loss": 0.1028985083475709,
+          "advantage_samples_generated": 68634,
+          "strategy_samples_generated": 80245,
+          "advantage_samples_processed": 2560000,
+          "strategy_samples_processed": 512000,
+          "advantage_memory_sizes": [
+            9535,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 27.174866791996465
+        },
+        {
+          "iteration": 30,
+          "nodes_touched": 372484,
+          "samples_processed": 4864000,
+          "training_seconds": 30.9683119560068,
+          "evaluation_seconds": 7.489909249998163,
+          "peak_sampled_rss_bytes": 650854400,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.22625,
+              "standard_error": 0.10888822843584124,
+              "ci_low": 1.012832993925381,
+              "ci_high": 1.439667006074619,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.04,
+              "standard_error": 0.06200400993987656,
+              "ci_low": -0.08152562637922153,
+              "ci_high": 0.16152562637922155,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 562.1122986450196,
+          "strategy_loss": 0.053413549756631255,
+          "advantage_samples_generated": 87520,
+          "strategy_samples_generated": 106001,
+          "advantage_samples_processed": 3840000,
+          "strategy_samples_processed": 1024000,
+          "advantage_memory_sizes": [
+            14434,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 40.12652341699868
+        }
+      ]
+    },
+    {
+      "experiment_id": "20261103T215525869821Z-holdem-deep_cfr-s2",
+      "seed": 2,
+      "checkpoint": "checkpoints/20261103T215525869821Z-holdem-deep_cfr-s2",
+      "wall_clock_seconds": 100.03986533299758,
+      "metrics": [
+        {
+          "iteration": 1,
+          "nodes_touched": 19599,
+          "samples_processed": 256000,
+          "training_seconds": 2.2340527910055243,
+          "evaluation_seconds": 1.5156628750046366,
+          "peak_sampled_rss_bytes": 218628096,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.810546875,
+              "standard_error": 0.37161588895687275,
+              "ci_low": 1.0821931165616936,
+              "ci_high": 2.538900633438306,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.083984375,
+              "standard_error": 0.2575586602687526,
+              "ci_low": -0.5887900730331423,
+              "ci_high": 0.42082132303314235,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 926.8269740708024,
+          "strategy_loss": 0.08617195919808,
+          "advantage_samples_generated": 4789,
+          "strategy_samples_generated": 5475,
+          "advantage_samples_processed": 128000,
+          "strategy_samples_processed": 128000,
+          "advantage_memory_sizes": [
+            120,
+            4669
+          ],
+          "strategy_memory_size": 5475,
+          "elapsed_seconds": 5.023311332995945
+        },
+        {
+          "iteration": 5,
+          "nodes_touched": 111094,
+          "samples_processed": 896000,
+          "training_seconds": 16.863295333008864,
+          "evaluation_seconds": 3.6609561250006664,
+          "peak_sampled_rss_bytes": 218628096,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.765625,
+              "standard_error": 0.35281469534651044,
+              "ci_low": 1.0741209039043684,
+              "ci_high": 2.4571290960956316,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.48046875,
+              "standard_error": 0.2589957019877572,
+              "ci_low": -0.9880909980466729,
+              "ci_high": 0.027153498046672886,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 572.6843819732666,
+          "strategy_loss": 0.20395604285597801,
+          "advantage_samples_generated": 27636,
+          "strategy_samples_generated": 30586,
+          "advantage_samples_processed": 640000,
+          "strategy_samples_processed": 256000,
+          "advantage_memory_sizes": [
+            1139,
+            20000
+          ],
+          "strategy_memory_size": 30586,
+          "elapsed_seconds": 21.80079108299833
+        },
+        {
+          "iteration": 10,
+          "nodes_touched": 178105,
+          "samples_processed": 1664000,
+          "training_seconds": 33.29746200101363,
+          "evaluation_seconds": 5.2642280840009334,
+          "peak_sampled_rss_bytes": 218628096,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.90234375,
+              "standard_error": 0.294416967933575,
+              "ci_low": 0.3252970964127091,
+              "ci_high": 1.479390403587291,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.41015625,
+              "standard_error": 0.20274742788035985,
+              "ci_low": -0.8075339066036372,
+              "ci_high": -0.01277859339636278,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 582.3844253234863,
+          "strategy_loss": 0.14673588579893113,
+          "advantage_samples_generated": 43730,
+          "strategy_samples_generated": 49357,
+          "advantage_samples_processed": 1280000,
+          "strategy_samples_processed": 384000,
+          "advantage_memory_sizes": [
+            3712,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 39.844551082998805
+        },
+        {
+          "iteration": 20,
+          "nodes_touched": 270649,
+          "samples_processed": 3072000,
+          "training_seconds": 51.77504891502031,
+          "evaluation_seconds": 7.92932799999835,
+          "peak_sampled_rss_bytes": 371720192,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.53125,
+              "standard_error": 0.32197046699603843,
+              "ci_low": 0.9001994806022227,
+              "ci_high": 2.1623005193977773,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.111328125,
+              "standard_error": 0.17556269603633068,
+              "ci_low": -0.45542468625996096,
+              "ci_high": 0.23276843625996096,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 649.9400971069335,
+          "strategy_loss": 0.10281936442106962,
+          "advantage_samples_generated": 64013,
+          "strategy_samples_generated": 76476,
+          "advantage_samples_processed": 2560000,
+          "strategy_samples_processed": 512000,
+          "advantage_memory_sizes": [
+            12351,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 64.3000579169966
+        },
+        {
+          "iteration": 30,
+          "nodes_touched": 343576,
+          "samples_processed": 4864000,
+          "training_seconds": 73.59837753904867,
+          "evaluation_seconds": 18.214763874995697,
+          "peak_sampled_rss_bytes": 371720192,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.768,
+              "standard_error": 0.11028562671413654,
+              "ci_low": 0.551844143627864,
+              "ci_high": 0.984155856372136,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.10125,
+              "standard_error": 0.06412969692555767,
+              "ci_low": -0.22694189631356204,
+              "ci_high": 0.024441896313562028,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 537.5802687988281,
+          "strategy_loss": 0.05761908989865333,
+          "advantage_samples_generated": 80029,
+          "strategy_samples_generated": 98181,
+          "advantage_samples_processed": 3840000,
+          "strategy_samples_processed": 1024000,
+          "advantage_memory_sizes": [
+            16868,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 96.41926324999804
+        }
+      ]
+    },
+    {
+      "experiment_id": "20261103T215735947397Z-holdem-deep_cfr-s3",
+      "seed": 3,
+      "checkpoint": "checkpoints/20261103T215735947397Z-holdem-deep_cfr-s3",
+      "wall_clock_seconds": 150.84811383399938,
+      "metrics": [
+        {
+          "iteration": 1,
+          "nodes_touched": 19573,
+          "samples_processed": 256000,
+          "training_seconds": 3.271167874998355,
+          "evaluation_seconds": 2.3909573330020066,
+          "peak_sampled_rss_bytes": 209518592,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.15625,
+              "standard_error": 0.30862176824283366,
+              "ci_low": 0.5513624493989787,
+              "ci_high": 1.7611375506010214,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.009765625,
+              "standard_error": 0.23759755433042126,
+              "ci_low": -0.4559170243024243,
+              "ci_high": 0.4754482743024243,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 922.5807082208694,
+          "strategy_loss": 0.08694112648069859,
+          "advantage_samples_generated": 4818,
+          "strategy_samples_generated": 5423,
+          "advantage_samples_processed": 128000,
+          "strategy_samples_processed": 128000,
+          "advantage_memory_sizes": [
+            120,
+            4698
+          ],
+          "strategy_memory_size": 5423,
+          "elapsed_seconds": 8.106564834000892
+        },
+        {
+          "iteration": 5,
+          "nodes_touched": 83701,
+          "samples_processed": 896000,
+          "training_seconds": 23.096151957986876,
+          "evaluation_seconds": 4.165998042000865,
+          "peak_sampled_rss_bytes": 209518592,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.705078125,
+              "standard_error": 0.29385514905821447,
+              "ci_low": 0.12913261617425054,
+              "ci_high": 1.2810236338257495,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.0078125,
+              "standard_error": 0.2331149749132368,
+              "ci_low": -0.4490844550869022,
+              "ci_high": 0.4647094550869022,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 461.18921858978274,
+          "strategy_loss": 0.18002854238450527,
+          "advantage_samples_generated": 19948,
+          "strategy_samples_generated": 24015,
+          "advantage_samples_processed": 640000,
+          "strategy_samples_processed": 256000,
+          "advantage_memory_sizes": [
+            1081,
+            18867
+          ],
+          "strategy_memory_size": 24015,
+          "elapsed_seconds": 29.712525916998857
+        },
+        {
+          "iteration": 10,
+          "nodes_touched": 179627,
+          "samples_processed": 1664000,
+          "training_seconds": 51.98056420798093,
+          "evaluation_seconds": 6.159344041996519,
+          "peak_sampled_rss_bytes": 209518592,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.921875,
+              "standard_error": 0.28942867308107295,
+              "ci_low": 0.3546052246678797,
+              "ci_high": 1.4891447753321203,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.37890625,
+              "standard_error": 0.23235019465395154,
+              "ci_low": -0.8343042633226159,
+              "ci_high": 0.07649176332261592,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 589.9757730712892,
+          "strategy_loss": 0.14275333310663701,
+          "advantage_samples_generated": 43186,
+          "strategy_samples_generated": 51026,
+          "advantage_samples_processed": 1280000,
+          "strategy_samples_processed": 384000,
+          "advantage_memory_sizes": [
+            2493,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 60.604438750000554
+        },
+        {
+          "iteration": 20,
+          "nodes_touched": 340676,
+          "samples_processed": 3072000,
+          "training_seconds": 92.6150365419744,
+          "evaluation_seconds": 9.308598500996595,
+          "peak_sampled_rss_bytes": 209518592,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.158203125,
+              "standard_error": 0.30588195104558213,
+              "ci_low": 0.5586855174298152,
+              "ci_high": 1.757720732570185,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.333984375,
+              "standard_error": 0.19062728365465523,
+              "ci_low": -0.03963823543382511,
+              "ci_high": 0.7076069854338252,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 859.2645044555663,
+          "strategy_loss": 0.10970038858801126,
+          "advantage_samples_generated": 82119,
+          "strategy_samples_generated": 95590,
+          "advantage_samples_processed": 2560000,
+          "strategy_samples_processed": 512000,
+          "advantage_memory_sizes": [
+            8788,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 106.31792666699766
+        },
+        {
+          "iteration": 30,
+          "nodes_touched": 481436,
+          "samples_processed": 4864000,
+          "training_seconds": 126.41353804297978,
+          "evaluation_seconds": 16.952498710001237,
+          "peak_sampled_rss_bytes": 209518592,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.35175,
+              "standard_error": 0.1160810530370357,
+              "ci_low": 1.1242353167599262,
+              "ci_high": 1.5792646832400739,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.04625,
+              "standard_error": 0.06868753130829942,
+              "ci_low": -0.18087508755123421,
+              "ci_high": 0.08837508755123423,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 1000.4556584472656,
+          "strategy_loss": 0.07120151419378817,
+          "advantage_samples_generated": 114532,
+          "strategy_samples_generated": 135614,
+          "advantage_samples_processed": 3840000,
+          "strategy_samples_processed": 1024000,
+          "advantage_memory_sizes": [
+            18060,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 147.77189912500035
+        }
+      ]
+    },
+    {
+      "experiment_id": "20261103T220029601147Z-holdem-deep_cfr-s4",
+      "seed": 4,
+      "checkpoint": "checkpoints/20261103T220029601147Z-holdem-deep_cfr-s4",
+      "wall_clock_seconds": 123.44968070899631,
+      "metrics": [
+        {
+          "iteration": 1,
+          "nodes_touched": 15950,
+          "samples_processed": 256000,
+          "training_seconds": 1.8972007920019678,
+          "evaluation_seconds": 1.7212554169964278,
+          "peak_sampled_rss_bytes": 305168384,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.607421875,
+              "standard_error": 0.2876064353930489,
+              "ci_low": 0.04372361990767837,
+              "ci_high": 1.1711201300923215,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.111328125,
+              "standard_error": 0.22736290405760087,
+              "ci_low": -0.5569512283733333,
+              "ci_high": 0.33429497837333333,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 878.7289884689562,
+          "strategy_loss": 0.0557723214039579,
+          "advantage_samples_generated": 3837,
+          "strategy_samples_generated": 4516,
+          "advantage_samples_processed": 128000,
+          "strategy_samples_processed": 128000,
+          "advantage_memory_sizes": [
+            120,
+            3717
+          ],
+          "strategy_memory_size": 4516,
+          "elapsed_seconds": 4.735135041999456
+        },
+        {
+          "iteration": 5,
+          "nodes_touched": 124340,
+          "samples_processed": 896000,
+          "training_seconds": 20.47948366800847,
+          "evaluation_seconds": 3.635251249994326,
+          "peak_sampled_rss_bytes": 305168384,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 2.32421875,
+              "standard_error": 0.31244092195854817,
+              "ci_low": 1.7118457956647561,
+              "ci_high": 2.936591704335244,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.044921875,
+              "standard_error": 0.2932615724119265,
+              "ci_low": -0.6197039949769609,
+              "ci_high": 0.5298602449769609,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 645.4584262695312,
+          "strategy_loss": 0.14541500832140447,
+          "advantage_samples_generated": 30828,
+          "strategy_samples_generated": 34378,
+          "advantage_samples_processed": 640000,
+          "strategy_samples_processed": 256000,
+          "advantage_memory_sizes": [
+            983,
+            20000
+          ],
+          "strategy_memory_size": 34378,
+          "elapsed_seconds": 25.236085292002826
+        },
+        {
+          "iteration": 10,
+          "nodes_touched": 219786,
+          "samples_processed": 1664000,
+          "training_seconds": 34.74542175200622,
+          "evaluation_seconds": 5.300352082995232,
+          "peak_sampled_rss_bytes": 305168384,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.48046875,
+              "standard_error": 0.312473095502376,
+              "ci_low": 0.8680327366775984,
+              "ci_high": 2.0929047633224016,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": 0.03125,
+              "standard_error": 0.22123933728599238,
+              "ci_low": -0.4023711330440545,
+              "ci_high": 0.4648711330440545,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 675.0408489990234,
+          "strategy_loss": 0.11231411874294281,
+          "advantage_samples_generated": 54401,
+          "strategy_samples_generated": 60512,
+          "advantage_samples_processed": 1280000,
+          "strategy_samples_processed": 384000,
+          "advantage_memory_sizes": [
+            3142,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 41.18016987499868
+        },
+        {
+          "iteration": 20,
+          "nodes_touched": 391713,
+          "samples_processed": 3072000,
+          "training_seconds": 85.3765035430115,
+          "evaluation_seconds": 6.842413874001068,
+          "peak_sampled_rss_bytes": 305168384,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 1.955078125,
+              "standard_error": 0.3801169155159485,
+              "ci_low": 1.2100626606742866,
+              "ci_high": 2.7000935893257134,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.162109375,
+              "standard_error": 0.20020372822758312,
+              "ci_low": -0.5545014718967078,
+              "ci_high": 0.2302827218967078,
+              "pairs": 256,
+              "hands": 512,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 826.1902440795898,
+          "strategy_loss": 0.09295799646154046,
+          "advantage_samples_generated": 96261,
+          "strategy_samples_generated": 107758,
+          "advantage_samples_processed": 2560000,
+          "strategy_samples_processed": 512000,
+          "advantage_memory_sizes": [
+            9614,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 97.37439808400086
+        },
+        {
+          "iteration": 30,
+          "nodes_touched": 476730,
+          "samples_processed": 4864000,
+          "training_seconds": 99.93092571300076,
+          "evaluation_seconds": 16.01295979099814,
+          "peak_sampled_rss_bytes": 305168384,
+          "exact_exploitability": false,
+          "tournaments": {
+            "uniform": {
+              "payoff_per_hand": 0.8405,
+              "standard_error": 0.10333135322485446,
+              "ci_low": 0.6379742692054986,
+              "ci_high": 1.0430257307945014,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            },
+            "always_call": {
+              "payoff_per_hand": -0.02325,
+              "standard_error": 0.06370102926417011,
+              "ci_low": -0.14810172313590542,
+              "ci_high": 0.1016017231359054,
+              "pairs": 2000,
+              "hands": 4000,
+              "confidence": 0.95,
+              "ci_method": "normal approximation over independent duplicate-deal pair means"
+            }
+          },
+          "advantage_loss": 639.762208190918,
+          "strategy_loss": 0.04828312248084694,
+          "advantage_samples_generated": 115281,
+          "strategy_samples_generated": 132820,
+          "advantage_samples_processed": 3840000,
+          "strategy_samples_processed": 1024000,
+          "advantage_memory_sizes": [
+            14799,
+            20000
+          ],
+          "strategy_memory_size": 40000,
+          "elapsed_seconds": 121.10641849999956
+        }
+      ]
+    }
+  ],
+  "response_probes": [
+    {
+      "experiment_id": "20261103T215415750057Z-holdem-holdem_response_probe-s0",
+      "seed": 0,
+      "standard_error": 0.07169972751316932,
+      "ci_low": -1.0235288836271474,
+      "ci_high": -0.7424711163728526,
+      "pairs": 2000,
+      "hands": 4000,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "response_gap": -0.883,
+      "metric": "restricted_neural_response_gap",
+      "exact_exploitability": false,
+      "interpretation": "Signed held-out response score. A restricted response can be weak; this is not exact BR, NashConv, or a near-equilibrium guarantee.",
+      "target_experiment": "20261103T215312593360Z-holdem-deep_cfr-s0",
+      "evaluation_seed": [
+        9182,
+        0,
+        32001
+      ],
+      "target_checkpoint": "checkpoints/20261103T215312593360Z-holdem-deep_cfr-s0",
+      "paired_payoffs": "response-pair-payoffs.npy"
+    },
+    {
+      "experiment_id": "20261103T215512673798Z-holdem-holdem_response_probe-s1",
+      "seed": 1,
+      "standard_error": 0.09822701333174107,
+      "ci_low": 0.06497859156085181,
+      "ci_high": 0.4500214084391482,
+      "pairs": 2000,
+      "hands": 4000,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "response_gap": 0.2575,
+      "metric": "restricted_neural_response_gap",
+      "exact_exploitability": false,
+      "interpretation": "Signed held-out response score. A restricted response can be weak; this is not exact BR, NashConv, or a near-equilibrium guarantee.",
+      "target_experiment": "20261103T215431091790Z-holdem-deep_cfr-s1",
+      "evaluation_seed": [
+        9182,
+        1,
+        32001
+      ],
+      "target_checkpoint": "checkpoints/20261103T215431091790Z-holdem-deep_cfr-s1",
+      "paired_payoffs": "response-pair-payoffs.npy"
+    },
+    {
+      "experiment_id": "20261103T215705939126Z-holdem-holdem_response_probe-s2",
+      "seed": 2,
+      "standard_error": 0.08805531834190453,
+      "ci_low": -0.33583525259734204,
+      "ci_high": 0.009335252597342053,
+      "pairs": 2000,
+      "hands": 4000,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "response_gap": -0.16325,
+      "metric": "restricted_neural_response_gap",
+      "exact_exploitability": false,
+      "interpretation": "Signed held-out response score. A restricted response can be weak; this is not exact BR, NashConv, or a near-equilibrium guarantee.",
+      "target_experiment": "20261103T215525869821Z-holdem-deep_cfr-s2",
+      "evaluation_seed": [
+        9182,
+        2,
+        32001
+      ],
+      "target_checkpoint": "checkpoints/20261103T215525869821Z-holdem-deep_cfr-s2",
+      "paired_payoffs": "response-pair-payoffs.npy"
+    },
+    {
+      "experiment_id": "20261103T220006825694Z-holdem-holdem_response_probe-s3",
+      "seed": 3,
+      "standard_error": 0.09192999935353295,
+      "ci_low": -0.6089294878317151,
+      "ci_high": -0.24857051216828502,
+      "pairs": 2000,
+      "hands": 4000,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "response_gap": -0.42875,
+      "metric": "restricted_neural_response_gap",
+      "exact_exploitability": false,
+      "interpretation": "Signed held-out response score. A restricted response can be weak; this is not exact BR, NashConv, or a near-equilibrium guarantee.",
+      "target_experiment": "20261103T215735947397Z-holdem-deep_cfr-s3",
+      "evaluation_seed": [
+        9182,
+        3,
+        32001
+      ],
+      "target_checkpoint": "checkpoints/20261103T215735947397Z-holdem-deep_cfr-s3",
+      "paired_payoffs": "response-pair-payoffs.npy"
+    },
+    {
+      "experiment_id": "20261103T220233078379Z-holdem-holdem_response_probe-s4",
+      "seed": 4,
+      "standard_error": 0.08363239242979818,
+      "ci_low": -0.5234164771033246,
+      "ci_high": -0.19558352289667533,
+      "pairs": 2000,
+      "hands": 4000,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "response_gap": -0.3595,
+      "metric": "restricted_neural_response_gap",
+      "exact_exploitability": false,
+      "interpretation": "Signed held-out response score. A restricted response can be weak; this is not exact BR, NashConv, or a near-equilibrium guarantee.",
+      "target_experiment": "20261103T220029601147Z-holdem-deep_cfr-s4",
+      "evaluation_seed": [
+        9182,
+        4,
+        32001
+      ],
+      "target_checkpoint": "checkpoints/20261103T220029601147Z-holdem-deep_cfr-s4",
+      "paired_payoffs": "response-pair-payoffs.npy"
+    }
+  ],
+  "limitations": [
+    "Full-deck generalization with a small CPU budget; no near-equilibrium claim.",
+    "Restricted learned responses can miss weaknesses. Scores are signed and not exact exploitability.",
+    "Pair confidence intervals are normal approximations; they do not measure training-seed uncertainty.",
+    "Peak RSS is sampled, not an allocator peak."
+  ],
+  "exact_exploitability": null,
+  "across_seeds": {
+    "uniform": {
+      "mean": 1.2912,
+      "sample_sd": 0.6003799682284544,
+      "values": [
+        2.2695,
+        1.22625,
+        0.768,
+        1.35175,
+        0.8405
+      ]
+    },
+    "always_call": {
+      "mean": -0.004550000000000001,
+      "sample_sd": 0.08076458846549024,
+      "values": [
+        0.108,
+        0.04,
+        -0.10125,
+        -0.04625,
+        -0.02325
+      ]
+    }
+  }
+}

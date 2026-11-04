@@ -1,0 +1,7868 @@
+[
+  {
+    "key": "holdem:[1,[6,37],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": null,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[2,33,42],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 2,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [
+      2,
+      33,
+      42
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[2,33,42,34],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 2,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [
+      2,
+      33,
+      42,
+      34
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[2,33,42,34,4],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 2,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [
+      2,
+      33,
+      42,
+      34,
+      4
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[2,33,42,34,4],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 2,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [
+      2,
+      33,
+      42,
+      34,
+      4
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[16,49],[2,33,42,34,4],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 16,
+    "public_card": 2,
+    "private_cards": [
+      16,
+      49
+    ],
+    "public_cards": [
+      2,
+      33,
+      42,
+      34,
+      4
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[2,33,42,34],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 2,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [
+      2,
+      33,
+      42,
+      34
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[16,49],[2,33,42,34],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 16,
+    "public_card": 2,
+    "private_cards": [
+      16,
+      49
+    ],
+    "public_cards": [
+      2,
+      33,
+      42,
+      34
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[2,33,42],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 2,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [
+      2,
+      33,
+      42
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[16,49],[2,33,42],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 16,
+    "public_card": 2,
+    "private_cards": [
+      16,
+      49
+    ],
+    "public_cards": [
+      2,
+      33,
+      42
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,37],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": null,
+    "private_cards": [
+      6,
+      37
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[16,49],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 16,
+    "public_card": null,
+    "private_cards": [
+      16,
+      49
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": null,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[12,26,27],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": 12,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [
+      12,
+      26,
+      27
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[12,26,27,41],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": 12,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [
+      12,
+      26,
+      27,
+      41
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[12,26,27,41,35],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": 12,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [
+      12,
+      26,
+      27,
+      41,
+      35
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[12,26,27,41,35],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": 12,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [
+      12,
+      26,
+      27,
+      41,
+      35
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[0,23],[12,26,27,41,35],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 0,
+    "public_card": 12,
+    "private_cards": [
+      0,
+      23
+    ],
+    "public_cards": [
+      12,
+      26,
+      27,
+      41,
+      35
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[12,26,27,41],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": 12,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [
+      12,
+      26,
+      27,
+      41
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[0,23],[12,26,27,41],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 0,
+    "public_card": 12,
+    "private_cards": [
+      0,
+      23
+    ],
+    "public_cards": [
+      12,
+      26,
+      27,
+      41
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[12,26,27],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": 12,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [
+      12,
+      26,
+      27
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[0,23],[12,26,27],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 0,
+    "public_card": 12,
+    "private_cards": [
+      0,
+      23
+    ],
+    "public_cards": [
+      12,
+      26,
+      27
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[10,25],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 10,
+    "public_card": null,
+    "private_cards": [
+      10,
+      25
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[0,23],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 0,
+    "public_card": null,
+    "private_cards": [
+      0,
+      23
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[9,39,48],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 9,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [
+      9,
+      39,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[9,39,48,4],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 9,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [
+      9,
+      39,
+      48,
+      4
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[9,39,48,4,12],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 9,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [
+      9,
+      39,
+      48,
+      4,
+      12
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[9,39,48,4,12],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 9,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [
+      9,
+      39,
+      48,
+      4,
+      12
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[17,23],[9,39,48,4,12],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 17,
+    "public_card": 9,
+    "private_cards": [
+      17,
+      23
+    ],
+    "public_cards": [
+      9,
+      39,
+      48,
+      4,
+      12
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[9,39,48,4],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 9,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [
+      9,
+      39,
+      48,
+      4
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[17,23],[9,39,48,4],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 17,
+    "public_card": 9,
+    "private_cards": [
+      17,
+      23
+    ],
+    "public_cards": [
+      9,
+      39,
+      48,
+      4
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[9,39,48],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 9,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [
+      9,
+      39,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[17,23],[9,39,48],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 17,
+    "public_card": 9,
+    "private_cards": [
+      17,
+      23
+    ],
+    "public_cards": [
+      9,
+      39,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,32],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      32
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[17,23],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 17,
+    "public_card": null,
+    "private_cards": [
+      17,
+      23
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": null,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[14,33,39],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": 14,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [
+      14,
+      33,
+      39
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[14,33,39,1],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": 14,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [
+      14,
+      33,
+      39,
+      1
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[14,33,39,1,49],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": 14,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [
+      14,
+      33,
+      39,
+      1,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[14,33,39,1,49],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": 14,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [
+      14,
+      33,
+      39,
+      1,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,22],[14,33,39,1,49],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": 14,
+    "private_cards": [
+      19,
+      22
+    ],
+    "public_cards": [
+      14,
+      33,
+      39,
+      1,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[14,33,39,1],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": 14,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [
+      14,
+      33,
+      39,
+      1
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,22],[14,33,39,1],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": 14,
+    "private_cards": [
+      19,
+      22
+    ],
+    "public_cards": [
+      14,
+      33,
+      39,
+      1
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[14,33,39],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": 14,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [
+      14,
+      33,
+      39
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,22],[14,33,39],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": 14,
+    "private_cards": [
+      19,
+      22
+    ],
+    "public_cards": [
+      14,
+      33,
+      39
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[38,46],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 38,
+    "public_card": null,
+    "private_cards": [
+      38,
+      46
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,22],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": null,
+    "private_cards": [
+      19,
+      22
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": null,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[10,12,32],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": 10,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [
+      10,
+      12,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[10,12,32,47],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": 10,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [
+      10,
+      12,
+      32,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[10,12,32,47,19],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": 10,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [
+      10,
+      12,
+      32,
+      47,
+      19
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[10,12,32,47,19],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": 10,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [
+      10,
+      12,
+      32,
+      47,
+      19
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[35,39],[10,12,32,47,19],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 35,
+    "public_card": 10,
+    "private_cards": [
+      35,
+      39
+    ],
+    "public_cards": [
+      10,
+      12,
+      32,
+      47,
+      19
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[10,12,32,47],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": 10,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [
+      10,
+      12,
+      32,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[35,39],[10,12,32,47],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 35,
+    "public_card": 10,
+    "private_cards": [
+      35,
+      39
+    ],
+    "public_cards": [
+      10,
+      12,
+      32,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[10,12,32],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": 10,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [
+      10,
+      12,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[35,39],[10,12,32],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 35,
+    "public_card": 10,
+    "private_cards": [
+      35,
+      39
+    ],
+    "public_cards": [
+      10,
+      12,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[4,28],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 4,
+    "public_card": null,
+    "private_cards": [
+      4,
+      28
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[35,39],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 35,
+    "public_card": null,
+    "private_cards": [
+      35,
+      39
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": null,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[11,28,50],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 11,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [
+      11,
+      28,
+      50
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[11,28,50,19],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 11,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [
+      11,
+      28,
+      50,
+      19
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[11,28,50,19,18],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 11,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [
+      11,
+      28,
+      50,
+      19,
+      18
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[11,28,50,19,18],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 11,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [
+      11,
+      28,
+      50,
+      19,
+      18
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[23,34],[11,28,50,19,18],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 23,
+    "public_card": 11,
+    "private_cards": [
+      23,
+      34
+    ],
+    "public_cards": [
+      11,
+      28,
+      50,
+      19,
+      18
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[11,28,50,19],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 11,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [
+      11,
+      28,
+      50,
+      19
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[23,34],[11,28,50,19],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 23,
+    "public_card": 11,
+    "private_cards": [
+      23,
+      34
+    ],
+    "public_cards": [
+      11,
+      28,
+      50,
+      19
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[11,28,50],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": 11,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [
+      11,
+      28,
+      50
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[23,34],[11,28,50],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 23,
+    "public_card": 11,
+    "private_cards": [
+      23,
+      34
+    ],
+    "public_cards": [
+      11,
+      28,
+      50
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[6,44],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 6,
+    "public_card": null,
+    "private_cards": [
+      6,
+      44
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[23,34],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 23,
+    "public_card": null,
+    "private_cards": [
+      23,
+      34
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": null,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[15,23,38],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": 15,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [
+      15,
+      23,
+      38
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[15,23,38,1],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": 15,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [
+      15,
+      23,
+      38,
+      1
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[15,23,38,1,32],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": 15,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [
+      15,
+      23,
+      38,
+      1,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[15,23,38,1,32],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": 15,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [
+      15,
+      23,
+      38,
+      1,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,49],[15,23,38,1,32],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": 15,
+    "private_cards": [
+      3,
+      49
+    ],
+    "public_cards": [
+      15,
+      23,
+      38,
+      1,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[15,23,38,1],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": 15,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [
+      15,
+      23,
+      38,
+      1
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,49],[15,23,38,1],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": 15,
+    "private_cards": [
+      3,
+      49
+    ],
+    "public_cards": [
+      15,
+      23,
+      38,
+      1
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[15,23,38],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": 15,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [
+      15,
+      23,
+      38
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,49],[15,23,38],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": 15,
+    "private_cards": [
+      3,
+      49
+    ],
+    "public_cards": [
+      15,
+      23,
+      38
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[2,50],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 2,
+    "public_card": null,
+    "private_cards": [
+      2,
+      50
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,49],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": null,
+    "private_cards": [
+      3,
+      49
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": null,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[17,47,49],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": 17,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [
+      17,
+      47,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[17,47,49,23],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": 17,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [
+      17,
+      47,
+      49,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[17,47,49,23,24],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": 17,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [
+      17,
+      47,
+      49,
+      23,
+      24
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[17,47,49,23,24],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": 17,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [
+      17,
+      47,
+      49,
+      23,
+      24
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[27,46],[17,47,49,23,24],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 27,
+    "public_card": 17,
+    "private_cards": [
+      27,
+      46
+    ],
+    "public_cards": [
+      17,
+      47,
+      49,
+      23,
+      24
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[17,47,49,23],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": 17,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [
+      17,
+      47,
+      49,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[27,46],[17,47,49,23],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 27,
+    "public_card": 17,
+    "private_cards": [
+      27,
+      46
+    ],
+    "public_cards": [
+      17,
+      47,
+      49,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[17,47,49],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": 17,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [
+      17,
+      47,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[27,46],[17,47,49],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 27,
+    "public_card": 17,
+    "private_cards": [
+      27,
+      46
+    ],
+    "public_cards": [
+      17,
+      47,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[15,20],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 15,
+    "public_card": null,
+    "private_cards": [
+      15,
+      20
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[27,46],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 27,
+    "public_card": null,
+    "private_cards": [
+      27,
+      46
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": null,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[38,46,48],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": 38,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [
+      38,
+      46,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[38,46,48,30],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": 38,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [
+      38,
+      46,
+      48,
+      30
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[38,46,48,30,28],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": 38,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [
+      38,
+      46,
+      48,
+      30,
+      28
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[38,46,48,30,28],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": 38,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [
+      38,
+      46,
+      48,
+      30,
+      28
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[13,19],[38,46,48,30,28],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 13,
+    "public_card": 38,
+    "private_cards": [
+      13,
+      19
+    ],
+    "public_cards": [
+      38,
+      46,
+      48,
+      30,
+      28
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[38,46,48,30],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": 38,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [
+      38,
+      46,
+      48,
+      30
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[13,19],[38,46,48,30],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 13,
+    "public_card": 38,
+    "private_cards": [
+      13,
+      19
+    ],
+    "public_cards": [
+      38,
+      46,
+      48,
+      30
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[38,46,48],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": 38,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [
+      38,
+      46,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[13,19],[38,46,48],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 13,
+    "public_card": 38,
+    "private_cards": [
+      13,
+      19
+    ],
+    "public_cards": [
+      38,
+      46,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[9,41],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 9,
+    "public_card": null,
+    "private_cards": [
+      9,
+      41
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[13,19],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 13,
+    "public_card": null,
+    "private_cards": [
+      13,
+      19
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": null,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[6,27,34],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 6,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [
+      6,
+      27,
+      34
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[6,27,34,8],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 6,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [
+      6,
+      27,
+      34,
+      8
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[6,27,34,8,23],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 6,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [
+      6,
+      27,
+      34,
+      8,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[6,27,34,8,23],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 6,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [
+      6,
+      27,
+      34,
+      8,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,15],[6,27,34,8,23],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": 6,
+    "private_cards": [
+      9,
+      15
+    ],
+    "public_cards": [
+      6,
+      27,
+      34,
+      8,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[6,27,34,8],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 6,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [
+      6,
+      27,
+      34,
+      8
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,15],[6,27,34,8],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": 6,
+    "private_cards": [
+      9,
+      15
+    ],
+    "public_cards": [
+      6,
+      27,
+      34,
+      8
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[6,27,34],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 6,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [
+      6,
+      27,
+      34
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,15],[6,27,34],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": 6,
+    "private_cards": [
+      9,
+      15
+    ],
+    "public_cards": [
+      6,
+      27,
+      34
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,38],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": null,
+    "private_cards": [
+      3,
+      38
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,15],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": null,
+    "private_cards": [
+      9,
+      15
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": null,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[7,22,42],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": 7,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [
+      7,
+      22,
+      42
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[7,22,42,26],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": 7,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [
+      7,
+      22,
+      42,
+      26
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[7,22,42,26,43],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": 7,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [
+      7,
+      22,
+      42,
+      26,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[7,22,42,26,43],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": 7,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [
+      7,
+      22,
+      42,
+      26,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[11,29],[7,22,42,26,43],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 11,
+    "public_card": 7,
+    "private_cards": [
+      11,
+      29
+    ],
+    "public_cards": [
+      7,
+      22,
+      42,
+      26,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[7,22,42,26],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": 7,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [
+      7,
+      22,
+      42,
+      26
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[11,29],[7,22,42,26],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 11,
+    "public_card": 7,
+    "private_cards": [
+      11,
+      29
+    ],
+    "public_cards": [
+      7,
+      22,
+      42,
+      26
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[7,22,42],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": 7,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [
+      7,
+      22,
+      42
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[11,29],[7,22,42],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 11,
+    "public_card": 7,
+    "private_cards": [
+      11,
+      29
+    ],
+    "public_cards": [
+      7,
+      22,
+      42
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[46,48],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 46,
+    "public_card": null,
+    "private_cards": [
+      46,
+      48
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[11,29],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 11,
+    "public_card": null,
+    "private_cards": [
+      11,
+      29
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": null,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[10,42,47],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": 10,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [
+      10,
+      42,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[10,42,47,12],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": 10,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [
+      10,
+      42,
+      47,
+      12
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[10,42,47,12,33],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": 10,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [
+      10,
+      42,
+      47,
+      12,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[10,42,47,12,33],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": 10,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [
+      10,
+      42,
+      47,
+      12,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,37],[10,42,47,12,33],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": 10,
+    "private_cards": [
+      9,
+      37
+    ],
+    "public_cards": [
+      10,
+      42,
+      47,
+      12,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[10,42,47,12],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": 10,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [
+      10,
+      42,
+      47,
+      12
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,37],[10,42,47,12],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": 10,
+    "private_cards": [
+      9,
+      37
+    ],
+    "public_cards": [
+      10,
+      42,
+      47,
+      12
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[10,42,47],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": 10,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [
+      10,
+      42,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,37],[10,42,47],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": 10,
+    "private_cards": [
+      9,
+      37
+    ],
+    "public_cards": [
+      10,
+      42,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[13,50],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 13,
+    "public_card": null,
+    "private_cards": [
+      13,
+      50
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[9,37],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 9,
+    "public_card": null,
+    "private_cards": [
+      9,
+      37
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[3,33,41],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [
+      3,
+      33,
+      41
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[3,33,41,29],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [
+      3,
+      33,
+      41,
+      29
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[3,33,41,29,43],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [
+      3,
+      33,
+      41,
+      29,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[3,33,41,29,43],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [
+      3,
+      33,
+      41,
+      29,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[24,28],[3,33,41,29,43],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 24,
+    "public_card": 3,
+    "private_cards": [
+      24,
+      28
+    ],
+    "public_cards": [
+      3,
+      33,
+      41,
+      29,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[3,33,41,29],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [
+      3,
+      33,
+      41,
+      29
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[24,28],[3,33,41,29],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 24,
+    "public_card": 3,
+    "private_cards": [
+      24,
+      28
+    ],
+    "public_cards": [
+      3,
+      33,
+      41,
+      29
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[3,33,41],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [
+      3,
+      33,
+      41
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[24,28],[3,33,41],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 24,
+    "public_card": 3,
+    "private_cards": [
+      24,
+      28
+    ],
+    "public_cards": [
+      3,
+      33,
+      41
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,13],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      13
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[24,28],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 24,
+    "public_card": null,
+    "private_cards": [
+      24,
+      28
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[3,4,32],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [
+      3,
+      4,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[3,4,32,39],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [
+      3,
+      4,
+      32,
+      39
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[3,4,32,39,49],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [
+      3,
+      4,
+      32,
+      39,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[3,4,32,39,49],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [
+      3,
+      4,
+      32,
+      39,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,41],[3,4,32,39,49],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": 3,
+    "private_cards": [
+      19,
+      41
+    ],
+    "public_cards": [
+      3,
+      4,
+      32,
+      39,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[3,4,32,39],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [
+      3,
+      4,
+      32,
+      39
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,41],[3,4,32,39],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": 3,
+    "private_cards": [
+      19,
+      41
+    ],
+    "public_cards": [
+      3,
+      4,
+      32,
+      39
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[3,4,32],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 3,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [
+      3,
+      4,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,41],[3,4,32],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": 3,
+    "private_cards": [
+      19,
+      41
+    ],
+    "public_cards": [
+      3,
+      4,
+      32
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,21],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      21
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[19,41],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 19,
+    "public_card": null,
+    "private_cards": [
+      19,
+      41
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": null,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[4,5,6],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": 4,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [
+      4,
+      5,
+      6
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[4,5,6,21],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": 4,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [
+      4,
+      5,
+      6,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[4,5,6,21,30],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": 4,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [
+      4,
+      5,
+      6,
+      21,
+      30
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[4,5,6,21,30],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": 4,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [
+      4,
+      5,
+      6,
+      21,
+      30
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[31,38],[4,5,6,21,30],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 31,
+    "public_card": 4,
+    "private_cards": [
+      31,
+      38
+    ],
+    "public_cards": [
+      4,
+      5,
+      6,
+      21,
+      30
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[4,5,6,21],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": 4,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [
+      4,
+      5,
+      6,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[31,38],[4,5,6,21],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 31,
+    "public_card": 4,
+    "private_cards": [
+      31,
+      38
+    ],
+    "public_cards": [
+      4,
+      5,
+      6,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[4,5,6],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": 4,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [
+      4,
+      5,
+      6
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[31,38],[4,5,6],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 31,
+    "public_card": 4,
+    "private_cards": [
+      31,
+      38
+    ],
+    "public_cards": [
+      4,
+      5,
+      6
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[45,48],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 45,
+    "public_card": null,
+    "private_cards": [
+      45,
+      48
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[31,38],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 31,
+    "public_card": null,
+    "private_cards": [
+      31,
+      38
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": null,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[10,17,36],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": 10,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [
+      10,
+      17,
+      36
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[10,17,36,0],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": 10,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [
+      10,
+      17,
+      36,
+      0
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[10,17,36,0,50],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": 10,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [
+      10,
+      17,
+      36,
+      0,
+      50
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[10,17,36,0,50],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": 10,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [
+      10,
+      17,
+      36,
+      0,
+      50
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,5],[10,17,36,0,50],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": 10,
+    "private_cards": [
+      3,
+      5
+    ],
+    "public_cards": [
+      10,
+      17,
+      36,
+      0,
+      50
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[10,17,36,0],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": 10,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [
+      10,
+      17,
+      36,
+      0
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,5],[10,17,36,0],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": 10,
+    "private_cards": [
+      3,
+      5
+    ],
+    "public_cards": [
+      10,
+      17,
+      36,
+      0
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[10,17,36],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": 10,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [
+      10,
+      17,
+      36
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,5],[10,17,36],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": 10,
+    "private_cards": [
+      3,
+      5
+    ],
+    "public_cards": [
+      10,
+      17,
+      36
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[18,22],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 18,
+    "public_card": null,
+    "private_cards": [
+      18,
+      22
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[3,5],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 3,
+    "public_card": null,
+    "private_cards": [
+      3,
+      5
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[12,36,45],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 12,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [
+      12,
+      36,
+      45
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[12,36,45,47],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 12,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [
+      12,
+      36,
+      45,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[12,36,45,47,9],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 12,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [
+      12,
+      36,
+      45,
+      47,
+      9
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[12,36,45,47,9],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 12,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [
+      12,
+      36,
+      45,
+      47,
+      9
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[25,48],[12,36,45,47,9],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 25,
+    "public_card": 12,
+    "private_cards": [
+      25,
+      48
+    ],
+    "public_cards": [
+      12,
+      36,
+      45,
+      47,
+      9
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[12,36,45,47],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 12,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [
+      12,
+      36,
+      45,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[25,48],[12,36,45,47],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 25,
+    "public_card": 12,
+    "private_cards": [
+      25,
+      48
+    ],
+    "public_cards": [
+      12,
+      36,
+      45,
+      47
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[12,36,45],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": 12,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [
+      12,
+      36,
+      45
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[25,48],[12,36,45],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 25,
+    "public_card": 12,
+    "private_cards": [
+      25,
+      48
+    ],
+    "public_cards": [
+      12,
+      36,
+      45
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[1,35],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 1,
+    "public_card": null,
+    "private_cards": [
+      1,
+      35
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[25,48],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 25,
+    "public_card": null,
+    "private_cards": [
+      25,
+      48
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": null,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[2,13,17],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": 2,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [
+      2,
+      13,
+      17
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[2,13,17,7],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": 2,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [
+      2,
+      13,
+      17,
+      7
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[2,13,17,7,48],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": 2,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [
+      2,
+      13,
+      17,
+      7,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[2,13,17,7,48],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": 2,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [
+      2,
+      13,
+      17,
+      7,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[49,50],[2,13,17,7,48],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 49,
+    "public_card": 2,
+    "private_cards": [
+      49,
+      50
+    ],
+    "public_cards": [
+      2,
+      13,
+      17,
+      7,
+      48
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[2,13,17,7],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": 2,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [
+      2,
+      13,
+      17,
+      7
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[49,50],[2,13,17,7],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 49,
+    "public_card": 2,
+    "private_cards": [
+      49,
+      50
+    ],
+    "public_cards": [
+      2,
+      13,
+      17,
+      7
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[2,13,17],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": 2,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [
+      2,
+      13,
+      17
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[49,50],[2,13,17],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 49,
+    "public_card": 2,
+    "private_cards": [
+      49,
+      50
+    ],
+    "public_cards": [
+      2,
+      13,
+      17
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[33,34],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 33,
+    "public_card": null,
+    "private_cards": [
+      33,
+      34
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[49,50],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 49,
+    "public_card": null,
+    "private_cards": [
+      49,
+      50
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": null,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[35,42,46],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 35,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [
+      35,
+      42,
+      46
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[35,42,46,21],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 35,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [
+      35,
+      42,
+      46,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[35,42,46,21,43],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 35,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [
+      35,
+      42,
+      46,
+      21,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[35,42,46,21,43],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 35,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [
+      35,
+      42,
+      46,
+      21,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[28,48],[35,42,46,21,43],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 28,
+    "public_card": 35,
+    "private_cards": [
+      28,
+      48
+    ],
+    "public_cards": [
+      35,
+      42,
+      46,
+      21,
+      43
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[35,42,46,21],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 35,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [
+      35,
+      42,
+      46,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[28,48],[35,42,46,21],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 28,
+    "public_card": 35,
+    "private_cards": [
+      28,
+      48
+    ],
+    "public_cards": [
+      35,
+      42,
+      46,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[35,42,46],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": 35,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [
+      35,
+      42,
+      46
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[28,48],[35,42,46],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 28,
+    "public_card": 35,
+    "private_cards": [
+      28,
+      48
+    ],
+    "public_cards": [
+      35,
+      42,
+      46
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[3,20],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 3,
+    "public_card": null,
+    "private_cards": [
+      3,
+      20
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[28,48],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 28,
+    "public_card": null,
+    "private_cards": [
+      28,
+      48
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": null,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[15,17,33],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": 15,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [
+      15,
+      17,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[15,17,33,44],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": 15,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [
+      15,
+      17,
+      33,
+      44
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[15,17,33,44,6],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": 15,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [
+      15,
+      17,
+      33,
+      44,
+      6
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[15,17,33,44,6],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": 15,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [
+      15,
+      17,
+      33,
+      44,
+      6
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[34,37],[15,17,33,44,6],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 34,
+    "public_card": 15,
+    "private_cards": [
+      34,
+      37
+    ],
+    "public_cards": [
+      15,
+      17,
+      33,
+      44,
+      6
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[15,17,33,44],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": 15,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [
+      15,
+      17,
+      33,
+      44
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[34,37],[15,17,33,44],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 34,
+    "public_card": 15,
+    "private_cards": [
+      34,
+      37
+    ],
+    "public_cards": [
+      15,
+      17,
+      33,
+      44
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[15,17,33],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": 15,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [
+      15,
+      17,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[34,37],[15,17,33],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 34,
+    "public_card": 15,
+    "private_cards": [
+      34,
+      37
+    ],
+    "public_cards": [
+      15,
+      17,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[0,27],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 0,
+    "public_card": null,
+    "private_cards": [
+      0,
+      27
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[34,37],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 34,
+    "public_card": null,
+    "private_cards": [
+      34,
+      37
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": null,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[16,24,33],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": 16,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [
+      16,
+      24,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[16,24,33,23],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": 16,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [
+      16,
+      24,
+      33,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[16,24,33,23,46],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": 16,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [
+      16,
+      24,
+      33,
+      23,
+      46
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[16,24,33,23,46],[[1,1],[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": 16,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [
+      16,
+      24,
+      33,
+      23,
+      46
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[36,40],[16,24,33,23,46],[[1,1],[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 36,
+    "public_card": 16,
+    "private_cards": [
+      36,
+      40
+    ],
+    "public_cards": [
+      16,
+      24,
+      33,
+      23,
+      46
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[16,24,33,23],[[1,1],[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": 16,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [
+      16,
+      24,
+      33,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[36,40],[16,24,33,23],[[1,1],[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 36,
+    "public_card": 16,
+    "private_cards": [
+      36,
+      40
+    ],
+    "public_cards": [
+      16,
+      24,
+      33,
+      23
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[16,24,33],[[1,1],[1,2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": 16,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [
+      16,
+      24,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[36,40],[16,24,33],[[1,1],[1]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 36,
+    "public_card": 16,
+    "private_cards": [
+      36,
+      40
+    ],
+    "public_cards": [
+      16,
+      24,
+      33
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[8,43],[],[[2]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 8,
+    "public_card": null,
+    "private_cards": [
+      8,
+      43
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        2
+      ]
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[0,[36,40],[],[[]]]",
+    "game": "holdem",
+    "player": 0,
+    "private_card": 36,
+    "public_card": null,
+    "private_cards": [
+      36,
+      40
+    ],
+    "public_cards": [],
+    "history": [
+      []
+    ],
+    "legal_actions": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[14,38],[],[[1]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 14,
+    "public_card": null,
+    "private_cards": [
+      14,
+      38
+    ],
+    "public_cards": [],
+    "history": [
+      [
+        1
+      ]
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[14,38],[22,37,49],[[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 14,
+    "public_card": 22,
+    "private_cards": [
+      14,
+      38
+    ],
+    "public_cards": [
+      22,
+      37,
+      49
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[14,38],[22,37,49,21],[[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 14,
+    "public_card": 22,
+    "private_cards": [
+      14,
+      38
+    ],
+    "public_cards": [
+      22,
+      37,
+      49,
+      21
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  },
+  {
+    "key": "holdem:[1,[14,38],[22,37,49,21,29],[[1,1],[1,1],[1,1],[]]]",
+    "game": "holdem",
+    "player": 1,
+    "private_card": 14,
+    "public_card": 22,
+    "private_cards": [
+      14,
+      38
+    ],
+    "public_cards": [
+      22,
+      37,
+      49,
+      21,
+      29
+    ],
+    "history": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      []
+    ],
+    "legal_actions": [
+      1,
+      2
+    ]
+  }
+]

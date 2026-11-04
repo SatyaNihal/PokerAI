@@ -1,0 +1,581 @@
+[
+  {
+    "id": "kuhn-cfr",
+    "game": "kuhn",
+    "algorithm": "cfr",
+    "name": "CFR",
+    "seed": 0,
+    "experiment_id": "study-20261103T183127810340Z-kuhn-cfr-s0",
+    "checkpoint": "data/models/kuhn-cfr",
+    "metrics": {
+      "iteration": 100000,
+      "value_player0": -0.055556357899689435,
+      "best_response_values": [
+        -0.05553941328186782,
+        0.05557403436155928
+      ],
+      "player_gains": [
+        1.6944617821618158e-05,
+        1.7676461869842175e-05
+      ],
+      "nash_conv": 3.462107969146033e-05,
+      "exploitability": 1.7310539845730166e-05,
+      "nodes_touched": 11600000,
+      "training_seconds": 10.00458168804471,
+      "evaluation_seconds": 0.00947266598814167,
+      "peak_rss_bytes": 181780480,
+      "samples_processed": 0,
+      "elapsed_seconds": 11.925060416000633
+    },
+    "artifact": {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-cfr-s0",
+      "game": "kuhn",
+      "algorithm": "cfr",
+      "seed": 0,
+      "encoder_version": "physical-cards-public-history-v1",
+      "game_parameters": {
+        "players": 2
+      },
+      "config": {
+        "game": "kuhn",
+        "algorithm": "cfr",
+        "iterations": 100000,
+        "seed": 0,
+        "grid_points": 25,
+        "purpose": "main_study",
+        "profile": "full",
+        "evaluation_iterations": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          11,
+          17,
+          28,
+          46,
+          74,
+          121,
+          195,
+          316,
+          510,
+          825,
+          1333,
+          2154,
+          3480,
+          5623,
+          9085,
+          14677,
+          23713,
+          38311,
+          61896,
+          100000
+        ]
+      },
+      "code_fingerprint": "fdbbb8d22326a9e1b101340ad92518527ecc3e9336c045b345d6dcf5c80c11c8",
+      "git_hash": "305733e0f5364ec26d91c0d594cfae86f1777f7d",
+      "checksums": {
+        "policy.npz": "0c69ef06571fa520bc676f42cf306d28192b92b394f956e06828c02caa12797f"
+      }
+    }
+  },
+  {
+    "id": "kuhn-cfr_plus",
+    "game": "kuhn",
+    "algorithm": "cfr_plus",
+    "name": "CFR+",
+    "seed": 0,
+    "experiment_id": "study-20261103T183127810340Z-kuhn-cfr_plus-s0",
+    "checkpoint": "data/models/kuhn-cfr_plus",
+    "metrics": {
+      "iteration": 100000,
+      "value_player0": -0.05555555555024007,
+      "best_response_values": [
+        -0.05555276711029611,
+        0.05555705122197936
+      ],
+      "player_gains": [
+        2.7884399439598306e-06,
+        1.495671739293325e-06
+      ],
+      "nash_conv": 4.284111683253156e-06,
+      "exploitability": 2.142055841626578e-06,
+      "nodes_touched": 11600000,
+      "training_seconds": 10.132637258298928,
+      "evaluation_seconds": 0.010746585994638735,
+      "peak_rss_bytes": 183779328,
+      "samples_processed": 0,
+      "elapsed_seconds": 12.19413254200117
+    },
+    "artifact": {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-cfr_plus-s0",
+      "game": "kuhn",
+      "algorithm": "cfr_plus",
+      "seed": 0,
+      "encoder_version": "physical-cards-public-history-v1",
+      "game_parameters": {
+        "players": 2
+      },
+      "config": {
+        "game": "kuhn",
+        "algorithm": "cfr_plus",
+        "iterations": 100000,
+        "seed": 0,
+        "grid_points": 25,
+        "purpose": "main_study",
+        "profile": "full",
+        "evaluation_iterations": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          11,
+          17,
+          28,
+          46,
+          74,
+          121,
+          195,
+          316,
+          510,
+          825,
+          1333,
+          2154,
+          3480,
+          5623,
+          9085,
+          14677,
+          23713,
+          38311,
+          61896,
+          100000
+        ]
+      },
+      "code_fingerprint": "fdbbb8d22326a9e1b101340ad92518527ecc3e9336c045b345d6dcf5c80c11c8",
+      "git_hash": "305733e0f5364ec26d91c0d594cfae86f1777f7d",
+      "checksums": {
+        "policy.npz": "f86c37866e3ae302664af88efb7414a32de06b603064cd8ff1aba6ac5bd36001"
+      }
+    }
+  },
+  {
+    "id": "kuhn-deep_cfr",
+    "game": "kuhn",
+    "algorithm": "deep_cfr",
+    "name": "Deep CFR",
+    "seed": 0,
+    "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s0",
+    "checkpoint": "data/models/kuhn-deep_cfr",
+    "metrics": {
+      "iteration": 100,
+      "value_player0": -0.05586722392859064,
+      "best_response_values": [
+        -0.023349467684073102,
+        0.07767153185834277
+      ],
+      "player_gains": [
+        0.03251775624451754,
+        0.02180430792975213
+      ],
+      "nash_conv": 0.05432206417426967,
+      "exploitability": 0.027161032087134836,
+      "nodes_touched": 146906,
+      "training_seconds": 24.13910236299853,
+      "evaluation_seconds": 2.802026666002348,
+      "peak_rss_bytes": 257753088,
+      "samples_processed": 14336000,
+      "advantage_loss": 0.9436716131567955,
+      "strategy_loss": 0.12264617525041104,
+      "advantage_samples_generated": 24752,
+      "strategy_samples_generated": 37402,
+      "advantage_samples_processed": 12800000,
+      "strategy_samples_processed": 1536000,
+      "advantage_memory_sizes": [
+        14752,
+        10000
+      ],
+      "strategy_memory_size": 37402,
+      "elapsed_seconds": 27.962194959000044
+    },
+    "artifact": {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s0",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "encoder_version": "physical-cards-public-history-v1",
+      "game_parameters": {
+        "players": 2
+      },
+      "config": {
+        "game": "kuhn",
+        "algorithm": "deep_cfr",
+        "seed": 0,
+        "iterations": 100,
+        "traversals": 100,
+        "hidden_size": 64,
+        "batch_size": 256,
+        "advantage_steps": 250,
+        "strategy_steps": 2000,
+        "eval_strategy_steps": 500,
+        "learning_rate": 0.001,
+        "gradient_clip": 1.0,
+        "advantage_capacity": 100000,
+        "strategy_capacity": 200000,
+        "grid_points": 10,
+        "purpose": "main_study",
+        "profile": "full",
+        "evaluation_iterations": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          12,
+          21,
+          35,
+          59,
+          100
+        ]
+      },
+      "code_fingerprint": "fdbbb8d22326a9e1b101340ad92518527ecc3e9336c045b345d6dcf5c80c11c8",
+      "git_hash": "305733e0f5364ec26d91c0d594cfae86f1777f7d",
+      "checksums": {
+        "policy.npz": "302bfc2e25a357120509d9c6196ff586454addc55d0066801ed6102b88caecaf",
+        "inference.pt": "5931ccdc3a7d88782a20acd881a8d2240ef0d6ebbf74c7755d1117f36b08870f"
+      }
+    }
+  },
+  {
+    "id": "leduc-cfr",
+    "game": "leduc",
+    "algorithm": "cfr",
+    "name": "CFR",
+    "seed": 0,
+    "experiment_id": "study-20261103T183127810340Z-leduc-cfr-s0",
+    "checkpoint": "data/models/leduc-cfr",
+    "metrics": {
+      "iteration": 10000,
+      "value_player0": -0.08580701798605256,
+      "best_response_values": [
+        -0.08415581384899282,
+        0.08824054281464655
+      ],
+      "player_gains": [
+        0.001651204137059742,
+        0.0024335248285939914
+      ],
+      "nash_conv": 0.004084728965653733,
+      "exploitability": 0.0020423644828268667,
+      "nodes_touched": 189140000,
+      "training_seconds": 13.852689905230363,
+      "evaluation_seconds": 0.9931504190026317,
+      "peak_rss_bytes": 201932800,
+      "samples_processed": 0,
+      "elapsed_seconds": 16.193115125002805
+    },
+    "artifact": {
+      "experiment_id": "study-20261103T183127810340Z-leduc-cfr-s0",
+      "game": "leduc",
+      "algorithm": "cfr",
+      "seed": 0,
+      "encoder_version": "physical-cards-public-history-v1",
+      "game_parameters": {
+        "players": 2,
+        "suit_isomorphism": false,
+        "action_mapping": false,
+        "starting_player": 0
+      },
+      "config": {
+        "game": "leduc",
+        "algorithm": "cfr",
+        "iterations": 10000,
+        "seed": 0,
+        "grid_points": 25,
+        "purpose": "main_study",
+        "profile": "full",
+        "evaluation_iterations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          10,
+          14,
+          21,
+          31,
+          46,
+          68,
+          100,
+          146,
+          215,
+          316,
+          464,
+          681,
+          1000,
+          1467,
+          2154,
+          3162,
+          4641,
+          6812,
+          10000
+        ]
+      },
+      "code_fingerprint": "4d5b8b8487329d7d01ac4ff9c7e35fad73bc83c2c46836b3297f4c75fd06646c",
+      "git_hash": "305733e0f5364ec26d91c0d594cfae86f1777f7d",
+      "checksums": {
+        "policy.npz": "7987e547f46794a22ba42dc1dd5b28707bab1d89e51f6b292659b66393b3c2fb"
+      }
+    }
+  },
+  {
+    "id": "leduc-cfr_plus",
+    "game": "leduc",
+    "algorithm": "cfr_plus",
+    "name": "CFR+",
+    "seed": 0,
+    "experiment_id": "study-20261103T183127810340Z-leduc-cfr_plus-s0",
+    "checkpoint": "data/models/leduc-cfr_plus",
+    "metrics": {
+      "iteration": 10000,
+      "value_player0": -0.08560634170621853,
+      "best_response_values": [
+        -0.08560206864905717,
+        0.08561498161071752
+      ],
+      "player_gains": [
+        4.2730571613580626e-06,
+        8.639904498994322e-06
+      ],
+      "nash_conv": 1.2912961660352384e-05,
+      "exploitability": 6.456480830176192e-06,
+      "nodes_touched": 189140000,
+      "training_seconds": 13.752611474883452,
+      "evaluation_seconds": 0.9261062910045439,
+      "peak_rss_bytes": 209666048,
+      "samples_processed": 0,
+      "elapsed_seconds": 15.927031375002116
+    },
+    "artifact": {
+      "experiment_id": "study-20261103T183127810340Z-leduc-cfr_plus-s0",
+      "game": "leduc",
+      "algorithm": "cfr_plus",
+      "seed": 0,
+      "encoder_version": "physical-cards-public-history-v1",
+      "game_parameters": {
+        "players": 2,
+        "suit_isomorphism": false,
+        "action_mapping": false,
+        "starting_player": 0
+      },
+      "config": {
+        "game": "leduc",
+        "algorithm": "cfr_plus",
+        "iterations": 10000,
+        "seed": 0,
+        "grid_points": 25,
+        "purpose": "main_study",
+        "profile": "full",
+        "evaluation_iterations": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          10,
+          14,
+          21,
+          31,
+          46,
+          68,
+          100,
+          146,
+          215,
+          316,
+          464,
+          681,
+          1000,
+          1467,
+          2154,
+          3162,
+          4641,
+          6812,
+          10000
+        ]
+      },
+      "code_fingerprint": "4d5b8b8487329d7d01ac4ff9c7e35fad73bc83c2c46836b3297f4c75fd06646c",
+      "git_hash": "305733e0f5364ec26d91c0d594cfae86f1777f7d",
+      "checksums": {
+        "policy.npz": "f5d9ec4f005414a545af745c585bfc1aaee690e054b39e50936a104620f86352"
+      }
+    }
+  },
+  {
+    "id": "leduc-deep_cfr",
+    "game": "leduc",
+    "algorithm": "deep_cfr",
+    "name": "Deep CFR",
+    "seed": 0,
+    "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s0",
+    "checkpoint": "data/models/leduc-deep_cfr",
+    "metrics": {
+      "iteration": 100,
+      "value_player0": -0.18244006302863325,
+      "best_response_values": [
+        0.6267382506026733,
+        0.7249121256770481
+      ],
+      "player_gains": [
+        0.8091783136313065,
+        0.5424720626484149
+      ],
+      "nash_conv": 1.3516503762797214,
+      "exploitability": 0.6758251881398607,
+      "nodes_touched": 876859,
+      "training_seconds": 32.58120946298732,
+      "evaluation_seconds": 3.8179106659918034,
+      "peak_rss_bytes": 346243072,
+      "samples_processed": 14336000,
+      "advantage_loss": 26.609961479187014,
+      "strategy_loss": 0.1824393896050751,
+      "advantage_samples_generated": 170806,
+      "strategy_samples_generated": 280672,
+      "advantage_samples_processed": 12800000,
+      "strategy_samples_processed": 1536000,
+      "advantage_memory_sizes": [
+        100000,
+        59466
+      ],
+      "strategy_memory_size": 200000,
+      "elapsed_seconds": 37.578454791000695
+    },
+    "artifact": {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s0",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "encoder_version": "physical-cards-public-history-v1",
+      "game_parameters": {
+        "players": 2,
+        "suit_isomorphism": false,
+        "action_mapping": false,
+        "starting_player": 0
+      },
+      "config": {
+        "game": "leduc",
+        "algorithm": "deep_cfr",
+        "seed": 0,
+        "iterations": 100,
+        "traversals": 200,
+        "hidden_size": 64,
+        "batch_size": 256,
+        "advantage_steps": 250,
+        "strategy_steps": 2000,
+        "eval_strategy_steps": 500,
+        "learning_rate": 0.001,
+        "gradient_clip": 1.0,
+        "advantage_capacity": 100000,
+        "strategy_capacity": 200000,
+        "grid_points": 10,
+        "purpose": "main_study",
+        "profile": "full",
+        "evaluation_iterations": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          12,
+          21,
+          35,
+          59,
+          100
+        ]
+      },
+      "code_fingerprint": "c293d82e364d275431959d8c69a3976f876a00d38bb5f83091f58fce6d2473aa",
+      "git_hash": "305733e0f5364ec26d91c0d594cfae86f1777f7d",
+      "checksums": {
+        "policy.npz": "b5d4c1ce9b80fc603915cf606d6b880d72fdb0efd22df7186dc27ae776686252",
+        "inference.pt": "b4dd4682572debcce53235e9af21fc26fb71f652ac7104b6efb08be2da7dc852"
+      }
+    }
+  },
+  {
+    "id": "holdem-deep_cfr",
+    "game": "holdem",
+    "algorithm": "deep_cfr",
+    "name": "Deep CFR \u00b7 Hold\u2019em",
+    "seed": 0,
+    "experiment_id": "20261103T215312593360Z-holdem-deep_cfr-s0",
+    "checkpoint": "data/models/holdem-deep_cfr",
+    "metrics": {
+      "uniform_payoff": 2.2695,
+      "always_call_payoff": 0.108,
+      "response_gap": -0.883
+    },
+    "artifact": {
+      "game": "holdem",
+      "encoder_version": "holdem-physical-cards-public-history-v1",
+      "experiment_id": "20261103T215312593360Z-holdem-deep_cfr-s0",
+      "config": {
+        "game": "holdem",
+        "algorithm": "deep_cfr",
+        "seed": 0,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "iterations": 30,
+        "traversals": 30,
+        "hidden_size": 64,
+        "learning_rate": 0.001,
+        "batch_size": 256,
+        "gradient_clip": 1.0,
+        "advantage_steps": 250,
+        "strategy_steps": 2000,
+        "eval_strategy_steps": 500,
+        "advantage_capacity": 20000,
+        "strategy_capacity": 40000,
+        "evaluation_grid": [
+          1,
+          5,
+          10,
+          20,
+          30
+        ],
+        "validation": {
+          "seed": 731,
+          "reference_hands": 5000,
+          "engine_atol": 1e-12,
+          "reload_atol": 0.0,
+          "reproducibility_atol": 0.0,
+          "policy_samples": 256,
+          "serving_atol": 1e-06
+        },
+        "evaluation": {
+          "seed": 9182,
+          "tournament_pairs": 2000,
+          "curve_pairs": 256,
+          "confidence": 0.95,
+          "response_iterations": 10,
+          "response_traversals": 20,
+          "response_advantage_steps": 250,
+          "response_pairs": 2000,
+          "exact_exploitability": false
+        }
+      },
+      "source_fingerprint": "98295687ce4122bd09777eeb9b1f9613b9cc1fb87e1be69be942b538a4f58659",
+      "checksums": {
+        "inference.pt": "2bd1c4ed2f2d077076f9e171fbcb9bb3ebb58e0db3f630200f532af388f7e44b",
+        "information_sets.json": "a42c3a485c2d5b744ab15c419a543d3459e471398eeb0b1d52ea09f260699448"
+      },
+      "reload_max_error": 0.0,
+      "policy_samples": 256
+    }
+  }
+]

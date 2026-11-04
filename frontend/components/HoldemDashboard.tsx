@@ -1,0 +1,31 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {CartesianGrid,Line,LineChart,ResponsiveContainer,Tooltip,XAxis,YAxis} from 'recharts';
+import {api,number,type HoldemSummary,type HoldemMetric} from '../lib/api';
+import {ErrorBox,Loading} from './common';
+type Axis='iteration'|'nodes_touched'|'elapsed_seconds';
+
+function Curve({summary,axis,metric,title}:{summary:HoldemSummary;axis:Axis;metric:string;title:string}) {
+  const points=new Map<number,Record<string,number>>();
+  for(const run of summary.runs)for(const row of run.metrics){const x=row[axis];const point=points.get(x)||{x};point[`seed${run.seed}`]=metric==='uniform'||metric==='always_call'?row.tournaments[metric].payoff_per_hand:Number(row[metric as keyof HoldemMetric]);points.set(x,point);}
+  return <div className="chart-frame" role="img" aria-label={title}><ResponsiveContainer width="100%" height="100%"><LineChart data={Array.from(points.values()).sort((a,b)=>a.x-b.x)}><CartesianGrid strokeDasharray="3 5" stroke="var(--line)"/><XAxis dataKey="x" type="number" domain={['dataMin','dataMax']} tickFormatter={v=>number(v,1)} tick={{fontSize:10,fill:'var(--muted)'}} axisLine={{stroke:'var(--line)'}} tickLine={{stroke:'var(--line)'}}/><YAxis domain={['auto','auto']} tickFormatter={v=>number(v,2)} tick={{fontSize:10,fill:'var(--muted)'}} axisLine={{stroke:'var(--line)'}} tickLine={{stroke:'var(--line)'}} width={60}/><Tooltip contentStyle={{background:'var(--surface)',color:'var(--ink)',border:'1px solid var(--line)',borderRadius:4,fontSize:12}} formatter={v=>number(Number(v),5)}/>{summary.runs.map(run=><Line key={run.seed} dataKey={`seed${run.seed}`} name={`Seed ${run.seed}`} stroke={['var(--green)','var(--purple)','var(--orange)','var(--blue)','#c4cd86'][run.seed%5]} strokeWidth={run.seed===summary.registration.demo_seed?2.5:1.5} dot={false} connectNulls isAnimationActive={false}/>)}</LineChart></ResponsiveContainer></div>;
+}
+
+export default function HoldemDashboard(){
+  const [summary,setSummary]=useState<HoldemSummary|null>(null);
+  const [error,setError]=useState('');
+  const [retry,setRetry]=useState(0);
+  const [axis,setAxis]=useState<Axis>('iteration');
+  useEffect(()=>{let cancelled=false;api<HoldemSummary>('/holdem/research-summary').then(data=>{if(!cancelled)setSummary(data);}).catch(e=>{if(!cancelled)setError(e.message);});return()=>{cancelled=true;};},[retry]);
+  if(error)return <ErrorBox error={error} retry={()=>{setError('');setRetry(v=>v+1);}}/>;
+  if(!summary)return <Loading label="Loading the Hold’em study…"/>;
+  if(!summary.runs.length)return <p>No recorded Hold’em runs are available.</p>;
+  function ci(row:{ci_low:number;ci_high:number}){return `[${number(row.ci_low,4)}, ${number(row.ci_high,4)}]`;}
+  return <section id="holdem-study" aria-label="Texas Holdem research" className="holdem-study">
+    <div className="dashboard-top"><div className="section-intro"><h2>Held-out Hold’em evaluation</h2><p>Deep CFR · {summary.runs.length} recorded seeds. Full-deck play with approximate evaluation. Exact exploitability is unavailable.</p></div><label>Hold’em horizontal axis<select aria-label="Holdem compute axis" value={axis} onChange={e=>setAxis(e.target.value as Axis)}><option value="iteration">Iterations</option><option value="nodes_touched">Sampled nodes visited</option><option value="elapsed_seconds">Offline seconds</option></select></label></div>
+    <div className="loss-grid">{['uniform','always_call'].map(b=><section className="panel" key={b}><h2>Payoff vs. {b.replace('_',' ')}</h2><Curve summary={summary} axis={axis} metric={b} title={`Holdem payoff vs ${b}`}/><p className="chart-note">Chips per hand. Each line is one training seed. Baseline gains do not establish proximity to optimal play.</p></section>)}</div>
+    <div className="loss-grid">{['advantage_loss','strategy_loss'].map(m=><section className="panel" key={m}><h2>{m==='advantage_loss'?'Hold’em advantage loss':'Hold’em average-policy loss'}</h2><Curve summary={summary} axis={axis} metric={m} title={`Holdem ${m}`}/><p className="chart-note">Iteration-weighted errors on self-play samples. Training and evaluation fits use independent randomness.</p></section>)}</div>
+    <section className="panel results-panel"><h2>Hold’em seeds and response probes</h2><p className="muted">Signed response scores and their intervals come from independently fitted, imperfect-information neural responses on held-out duplicate deals. Negative scores indicate an uninformative weak response, not negative exploitability. Positive scores expose a weakness against that response.</p><div className="table-scroll"><table aria-label="Holdem seed results"><thead><tr><th>Seed</th><th>Vs. uniform [CI]</th><th>Vs. always-call [CI]</th><th>Response gap [CI]</th><th>Offline time</th><th>Sampled peak RSS</th><th>SGD samples</th></tr></thead><tbody>{summary.runs.map(run=>{const last=run.metrics.at(-1)!;const response=summary.response_probes.find(r=>r.seed===run.seed)!;return <tr key={run.seed}><td><a href={`/experiments/${run.experiment_id}`} target="_blank" rel="noreferrer">{run.seed}{run.seed===summary.registration.demo_seed?' · demo':''}</a></td><td>{number(last.tournaments.uniform.payoff_per_hand,4)} {ci(last.tournaments.uniform)}</td><td>{number(last.tournaments.always_call.payoff_per_hand,4)} {ci(last.tournaments.always_call)}</td><td>{number(response.response_gap,4)} {ci(response)}</td><td>{number(run.wall_clock_seconds,2)} s</td><td>{number(last.peak_sampled_rss_bytes/1024**2,1)} MiB</td><td>{number(last.samples_processed,0)}</td></tr>;})}</tbody></table></div><p className="chart-note">Recorded confidence intervals are pair-level Monte Carlo intervals, separate from seed variation. Full-tree best responses and exact NashConv are not computed. The demo seed was selected before training.</p></section>
+    <details className="panel provenance-panel"><summary>Hold’em configuration, provenance & limitations</summary><pre>{JSON.stringify({config:summary.config,registration:summary.registration,experiments:summary.runs.map(r=>r.experiment_id),response_experiments:summary.response_probes.map(r=>r.experiment_id),limitations:summary.limitations},null,2)}</pre></details>
+  </section>;
+}

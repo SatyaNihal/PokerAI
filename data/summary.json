@@ -1,0 +1,2112 @@
+{
+  "registration": {
+    "pilot_experiment_id": "20261103T183127810340Z-both-throughput_pilot-s0",
+    "selected_profile": "full",
+    "predicted_seconds": {
+      "full": 8068.442842316351,
+      "half": 7693.460597882889,
+      "quarter": 7505.969475666158
+    },
+    "budget_seconds": 86400,
+    "configs": [
+      "configs/frozen/kuhn_cfr_s0.json",
+      "configs/frozen/kuhn_cfr_plus_s0.json",
+      "configs/frozen/kuhn_deep_cfr_s0.json",
+      "configs/frozen/kuhn_deep_cfr_s1.json",
+      "configs/frozen/kuhn_deep_cfr_s2.json",
+      "configs/frozen/kuhn_deep_cfr_s3.json",
+      "configs/frozen/kuhn_deep_cfr_s4.json",
+      "configs/frozen/leduc_cfr_s0.json",
+      "configs/frozen/leduc_cfr_plus_s0.json",
+      "configs/frozen/leduc_deep_cfr_s0.json",
+      "configs/frozen/leduc_deep_cfr_s1.json",
+      "configs/frozen/leduc_deep_cfr_s2.json",
+      "configs/frozen/leduc_deep_cfr_s3.json",
+      "configs/frozen/leduc_deep_cfr_s4.json"
+    ],
+    "selection_uses_exploitability": false
+  },
+  "runs": [
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-cfr-s0",
+      "game": "kuhn",
+      "algorithm": "cfr",
+      "seed": 0,
+      "iterations": 100000,
+      "exploitability": 1.7310539845730166e-05,
+      "nash_conv": 3.462107969146033e-05,
+      "value_player0": -0.055556357899689435,
+      "offline_wall_seconds": 11.928046958000778,
+      "self_play_training_seconds": 10.00458168804471,
+      "evaluation_and_policy_fit_seconds": 0.00947266598814167,
+      "peak_sampled_rss_bytes": 181780480,
+      "nodes_touched": 11600000,
+      "samples_processed": 0,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-cfr-s0"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-cfr_plus-s0",
+      "game": "kuhn",
+      "algorithm": "cfr_plus",
+      "seed": 0,
+      "iterations": 100000,
+      "exploitability": 2.142055841626578e-06,
+      "nash_conv": 4.284111683253156e-06,
+      "value_player0": -0.05555555555024007,
+      "offline_wall_seconds": 12.197027250000247,
+      "self_play_training_seconds": 10.132637258298928,
+      "evaluation_and_policy_fit_seconds": 0.010746585994638735,
+      "peak_sampled_rss_bytes": 183779328,
+      "nodes_touched": 11600000,
+      "samples_processed": 0,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-cfr_plus-s0"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s0",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "iterations": 100,
+      "exploitability": 0.027161032087134836,
+      "nash_conv": 0.05432206417426967,
+      "value_player0": -0.05586722392859064,
+      "offline_wall_seconds": 28.008273209001345,
+      "self_play_training_seconds": 24.13910236299853,
+      "evaluation_and_policy_fit_seconds": 2.802026666002348,
+      "peak_sampled_rss_bytes": 257753088,
+      "nodes_touched": 146906,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-deep_cfr-s0"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s1",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 1,
+      "iterations": 100,
+      "exploitability": 0.02445488759173744,
+      "nash_conv": 0.04890977518347488,
+      "value_player0": -0.056487268894949275,
+      "offline_wall_seconds": 29.719379999998637,
+      "self_play_training_seconds": 25.495689423009026,
+      "evaluation_and_policy_fit_seconds": 3.1965044179996767,
+      "peak_sampled_rss_bytes": 255098880,
+      "nodes_touched": 145631,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-deep_cfr-s1"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s2",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 2,
+      "iterations": 100,
+      "exploitability": 0.028695696272010005,
+      "nash_conv": 0.05739139254402001,
+      "value_player0": -0.052551817885447064,
+      "offline_wall_seconds": 35.728473750001285,
+      "self_play_training_seconds": 30.164206749992445,
+      "evaluation_and_policy_fit_seconds": 4.0593088759997045,
+      "peak_sampled_rss_bytes": 239124480,
+      "nodes_touched": 145643,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-deep_cfr-s2"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s3",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 3,
+      "iterations": 100,
+      "exploitability": 0.0214646566786819,
+      "nash_conv": 0.0429293133573638,
+      "value_player0": -0.055008391454002215,
+      "offline_wall_seconds": 32.95985591700082,
+      "self_play_training_seconds": 28.24709049599187,
+      "evaluation_and_policy_fit_seconds": 3.4812273750030727,
+      "peak_sampled_rss_bytes": 239616000,
+      "nodes_touched": 145913,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-deep_cfr-s3"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s4",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 4,
+      "iterations": 100,
+      "exploitability": 0.026716481452497234,
+      "nash_conv": 0.05343296290499447,
+      "value_player0": -0.0517695253330175,
+      "offline_wall_seconds": 34.56674983300036,
+      "self_play_training_seconds": 30.00728574299137,
+      "evaluation_and_policy_fit_seconds": 3.373184709002089,
+      "peak_sampled_rss_bytes": 260603904,
+      "nodes_touched": 145914,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-kuhn-deep_cfr-s4"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-cfr-s0",
+      "game": "leduc",
+      "algorithm": "cfr",
+      "seed": 0,
+      "iterations": 10000,
+      "exploitability": 0.0020423644828268667,
+      "nash_conv": 0.004084728965653733,
+      "value_player0": -0.08580701798605256,
+      "offline_wall_seconds": 16.208484042002965,
+      "self_play_training_seconds": 13.852689905230363,
+      "evaluation_and_policy_fit_seconds": 0.9931504190026317,
+      "peak_sampled_rss_bytes": 201932800,
+      "nodes_touched": 189140000,
+      "samples_processed": 0,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-cfr-s0"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-cfr_plus-s0",
+      "game": "leduc",
+      "algorithm": "cfr_plus",
+      "seed": 0,
+      "iterations": 10000,
+      "exploitability": 6.456480830176192e-06,
+      "nash_conv": 1.2912961660352384e-05,
+      "value_player0": -0.08560634170621853,
+      "offline_wall_seconds": 15.937572292001278,
+      "self_play_training_seconds": 13.752611474883452,
+      "evaluation_and_policy_fit_seconds": 0.9261062910045439,
+      "peak_sampled_rss_bytes": 209666048,
+      "nodes_touched": 189140000,
+      "samples_processed": 0,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-cfr_plus-s0"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s0",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "iterations": 100,
+      "exploitability": 0.6758251881398607,
+      "nash_conv": 1.3516503762797214,
+      "value_player0": -0.18244006302863325,
+      "offline_wall_seconds": 37.80709970800308,
+      "self_play_training_seconds": 32.58120946298732,
+      "evaluation_and_policy_fit_seconds": 3.8179106659918034,
+      "peak_sampled_rss_bytes": 346243072,
+      "nodes_touched": 876859,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-deep_cfr-s0"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s1",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 1,
+      "iterations": 100,
+      "exploitability": 0.7754528373943802,
+      "nash_conv": 1.5509056747887604,
+      "value_player0": -0.17809544550569317,
+      "offline_wall_seconds": 35.550027375000354,
+      "self_play_training_seconds": 30.59602744997028,
+      "evaluation_and_policy_fit_seconds": 3.523974250001629,
+      "peak_sampled_rss_bytes": 434798592,
+      "nodes_touched": 887089,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-deep_cfr-s1"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s2",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 2,
+      "iterations": 100,
+      "exploitability": 0.8414817971291247,
+      "nash_conv": 1.6829635942582495,
+      "value_player0": -0.16088479861215244,
+      "offline_wall_seconds": 36.50041658400005,
+      "self_play_training_seconds": 31.677748253016034,
+      "evaluation_and_policy_fit_seconds": 3.546847790999891,
+      "peak_sampled_rss_bytes": 463601664,
+      "nodes_touched": 900645,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-deep_cfr-s2"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s3",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 3,
+      "iterations": 100,
+      "exploitability": 0.7480810330806451,
+      "nash_conv": 1.4961620661612902,
+      "value_player0": -0.17738353813379298,
+      "offline_wall_seconds": 36.16206625000268,
+      "self_play_training_seconds": 31.112316292990727,
+      "evaluation_and_policy_fit_seconds": 3.5470528770019882,
+      "peak_sampled_rss_bytes": 473219072,
+      "nodes_touched": 884111,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-deep_cfr-s3"
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s4",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 4,
+      "iterations": 100,
+      "exploitability": 0.7289123770150536,
+      "nash_conv": 1.4578247540301073,
+      "value_player0": -0.14143435112545688,
+      "offline_wall_seconds": 35.50565995800207,
+      "self_play_training_seconds": 30.692994002991327,
+      "evaluation_and_policy_fit_seconds": 3.570797626998683,
+      "peak_sampled_rss_bytes": 451067904,
+      "nodes_touched": 883101,
+      "samples_processed": 14336000,
+      "checkpoint": "checkpoints/study-20261103T183127810340Z-leduc-deep_cfr-s4"
+    }
+  ],
+  "summaries": [
+    {
+      "game": "kuhn",
+      "algorithm": "cfr",
+      "run_count": 1,
+      "mean_exploitability": 1.7310539845730166e-05,
+      "seed_ci95": null,
+      "deterministic": true,
+      "mean_offline_seconds": 11.928046958000778,
+      "experiment_ids": [
+        "study-20261103T183127810340Z-kuhn-cfr-s0"
+      ]
+    },
+    {
+      "game": "kuhn",
+      "algorithm": "cfr_plus",
+      "run_count": 1,
+      "mean_exploitability": 2.142055841626578e-06,
+      "seed_ci95": null,
+      "deterministic": true,
+      "mean_offline_seconds": 12.197027250000247,
+      "experiment_ids": [
+        "study-20261103T183127810340Z-kuhn-cfr_plus-s0"
+      ]
+    },
+    {
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "run_count": 5,
+      "mean_exploitability": 0.02569855081641228,
+      "seed_ci95": [
+        0.02220693110989634,
+        0.029190170522928216
+      ],
+      "deterministic": false,
+      "mean_offline_seconds": 32.19654654180049,
+      "experiment_ids": [
+        "study-20261103T183127810340Z-kuhn-deep_cfr-s0",
+        "study-20261103T183127810340Z-kuhn-deep_cfr-s1",
+        "study-20261103T183127810340Z-kuhn-deep_cfr-s2",
+        "study-20261103T183127810340Z-kuhn-deep_cfr-s3",
+        "study-20261103T183127810340Z-kuhn-deep_cfr-s4"
+      ]
+    },
+    {
+      "game": "leduc",
+      "algorithm": "cfr",
+      "run_count": 1,
+      "mean_exploitability": 0.0020423644828268667,
+      "seed_ci95": null,
+      "deterministic": true,
+      "mean_offline_seconds": 16.208484042002965,
+      "experiment_ids": [
+        "study-20261103T183127810340Z-leduc-cfr-s0"
+      ]
+    },
+    {
+      "game": "leduc",
+      "algorithm": "cfr_plus",
+      "run_count": 1,
+      "mean_exploitability": 6.456480830176192e-06,
+      "seed_ci95": null,
+      "deterministic": true,
+      "mean_offline_seconds": 15.937572292001278,
+      "experiment_ids": [
+        "study-20261103T183127810340Z-leduc-cfr_plus-s0"
+      ]
+    },
+    {
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "run_count": 5,
+      "mean_exploitability": 0.7539506465518129,
+      "seed_ci95": [
+        0.6781964189941114,
+        0.8297048741095143
+      ],
+      "deterministic": false,
+      "mean_offline_seconds": 36.30505397500165,
+      "experiment_ids": [
+        "study-20261103T183127810340Z-leduc-deep_cfr-s0",
+        "study-20261103T183127810340Z-leduc-deep_cfr-s1",
+        "study-20261103T183127810340Z-leduc-deep_cfr-s2",
+        "study-20261103T183127810340Z-leduc-deep_cfr-s3",
+        "study-20261103T183127810340Z-leduc-deep_cfr-s4"
+      ]
+    }
+  ],
+  "tournament_experiment": "20261103T183819738429Z-both-tournaments-s2026",
+  "tournaments": [
+    {
+      "game": "kuhn",
+      "agent_a": "cfr",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.00525,
+      "standard_error": 0.004173306291004753,
+      "ci_low": -0.0029295300268237486,
+      "ci_high": 0.01342953002682375,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -4.430025128877857e-06,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr-cfr_plus.npy",
+      "elapsed_seconds": 0.4185629579988017
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr",
+      "agent_b": "deep_cfr_s0",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.00285,
+      "standard_error": 0.0041615405310965305,
+      "ci_low": -0.0053064695611528875,
+      "ci_high": 0.011006469561152888,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.004400386987382536,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr-deep_cfr_s0.npy",
+      "elapsed_seconds": 0.5880843330014613
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.13745,
+      "standard_error": 0.00510351392037227,
+      "ci_low": 0.12744729652147152,
+      "ci_high": 0.14745270347852846,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.14492914749966374,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr-uniform.npy",
+      "elapsed_seconds": 0.7465788750014326
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0018,
+      "standard_error": 0.002710241786456349,
+      "ci_low": -0.007111976290849939,
+      "ci_high": 0.003511976290849939,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -9.46807716382947e-06,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr-rule_based.npy",
+      "elapsed_seconds": 0.9083858750018408
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.18025,
+      "standard_error": 0.003363721928537086,
+      "ci_low": 0.1736572261660597,
+      "ci_high": 0.1868427738339403,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.17871817426844377,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr-always_call.npy",
+      "elapsed_seconds": 1.062013750000915
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr_plus",
+      "agent_b": "deep_cfr_s0",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.0065,
+      "standard_error": 0.004185394456042974,
+      "ci_low": -0.0017032223949378375,
+      "ci_high": 0.014703222394937838,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.0044539586453790705,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr_plus-deep_cfr_s0.npy",
+      "elapsed_seconds": 1.225406417001068
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr_plus",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1406,
+      "standard_error": 0.005212089848425371,
+      "ci_low": 0.13038449161289944,
+      "ci_high": 0.15081550838710056,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.14994431461381236,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr_plus-uniform.npy",
+      "elapsed_seconds": 1.3842255000017758
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr_plus",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.00145,
+      "standard_error": 0.0027309404155996075,
+      "ci_low": -0.006802544858500076,
+      "ci_high": 0.0039025448585000766,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -6.160942927838087e-07,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr_plus-rule_based.npy",
+      "elapsed_seconds": 1.5459978330000013
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "cfr_plus",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1903,
+      "standard_error": 0.003380788957240209,
+      "ci_low": 0.18367377540447846,
+      "ci_high": 0.19692622459552153,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.18877597983780064,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-cfr_plus-always_call.npy",
+      "elapsed_seconds": 1.6998949170010746
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s0",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.14725,
+      "standard_error": 0.0051499413530247075,
+      "ci_low": 0.13715630042557808,
+      "ci_high": 0.1573436995744219,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1402721208137085,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s0-uniform.npy",
+      "elapsed_seconds": 1.8612893749996147
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s0",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0076,
+      "standard_error": 0.002654228417610151,
+      "ci_low": -0.012802192105258632,
+      "ci_high": -0.002397807894741367,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.00443393098218256,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s0-rule_based.npy",
+      "elapsed_seconds": 2.0237457920011366
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s0",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.16655,
+      "standard_error": 0.0033719055035205934,
+      "ci_low": 0.15994118665382726,
+      "ci_high": 0.17315881334617275,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1672664649192265,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s0-always_call.npy",
+      "elapsed_seconds": 2.1786680830009573
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "uniform",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.20505,
+      "standard_error": 0.0030354359056177934,
+      "ci_low": -0.2109993450523906,
+      "ci_high": -0.19910065494760942,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.20833333333333334,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-uniform-rule_based.npy",
+      "elapsed_seconds": 2.3339708749990677
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "uniform",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.0013,
+      "standard_error": 0.0035058608223959204,
+      "ci_low": -0.0055713609467059775,
+      "ci_high": 0.008171360946705977,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.0,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-uniform-always_call.npy",
+      "elapsed_seconds": 2.492462041998806
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "rule_based",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.33555,
+      "standard_error": 0.0023491853092426993,
+      "ci_low": 0.3309456814008737,
+      "ci_high": 0.3401543185991263,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.33333333333333337,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-rule_based-always_call.npy",
+      "elapsed_seconds": 2.6435802080013673
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0067,
+      "standard_error": 0.004160197317937265,
+      "ci_low": -0.014853836911737167,
+      "ci_high": 0.0014538369117371658,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0032928351217773877,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s1-cfr.npy",
+      "elapsed_seconds": 2.806791292001435
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.00095,
+      "standard_error": 0.004277761058540717,
+      "ci_low": -0.00743425760920774,
+      "ci_high": 0.00933425760920774,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.003345592907981927,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s1-cfr_plus.npy",
+      "elapsed_seconds": 2.973903958001756
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1663,
+      "standard_error": 0.005216526834515617,
+      "ci_low": 0.15607579527996265,
+      "ci_high": 0.17652420472003735,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.16852297388158793,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s1-uniform.npy",
+      "elapsed_seconds": 3.135756832998595
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0243,
+      "standard_error": 0.002731610728071804,
+      "ci_low": -0.02965385864680397,
+      "ci_high": -0.018946141353196028,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.023167793848000495,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s1-rule_based.npy",
+      "elapsed_seconds": 3.2979384169993864
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.18865,
+      "standard_error": 0.0034212261294487515,
+      "ci_low": 0.1819445200033131,
+      "ci_high": 0.19535547999668693,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1873498997307623,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s1-always_call.npy",
+      "elapsed_seconds": 3.453439207998599
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0006,
+      "standard_error": 0.004138438916749499,
+      "ci_low": -0.00871119122904797,
+      "ci_high": 0.00751119122904797,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0031897501028219435,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s2-cfr.npy",
+      "elapsed_seconds": 3.6158197080003447
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.00875,
+      "standard_error": 0.004227485175975347,
+      "ci_low": 0.00046428130991135047,
+      "ci_high": 0.01703571869008865,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.003256244467408659,
+      "exact_inside_interval": false,
+      "paired_payoffs": "kuhn-deep_cfr_s2-cfr_plus.npy",
+      "elapsed_seconds": 3.7810436250001658
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1518,
+      "standard_error": 0.005155902863071932,
+      "ci_low": 0.14169461608059206,
+      "ci_high": 0.16190538391940792,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1565601536950066,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s2-uniform.npy",
+      "elapsed_seconds": 3.942488417000277
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0077,
+      "standard_error": 0.002717500594470606,
+      "ci_low": -0.013026203293128574,
+      "ci_high": -0.002373796706871427,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.007734814604069357,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s2-rule_based.npy",
+      "elapsed_seconds": 4.106730250001419
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1968,
+      "standard_error": 0.003403400404511838,
+      "ci_low": 0.19012945778218776,
+      "ci_high": 0.20347054221781224,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.19267669655307706,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s2-always_call.npy",
+      "elapsed_seconds": 4.261727624998457
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0054,
+      "standard_error": 0.004042736495473973,
+      "ci_low": -0.013323617930114662,
+      "ci_high": 0.002523617930114661,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0032653749943612337,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s3-cfr.npy",
+      "elapsed_seconds": 4.428464583001187
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.00165,
+      "standard_error": 0.004061881046727461,
+      "ci_low": -0.0063111405610716785,
+      "ci_high": 0.00961114056107168,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0033423000713825937,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s3-cfr_plus.npy",
+      "elapsed_seconds": 4.590267250001489
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.15535,
+      "standard_error": 0.005108008117132594,
+      "ci_low": 0.14533848805768185,
+      "ci_high": 0.16536151194231813,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1526479886931429,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s3-uniform.npy",
+      "elapsed_seconds": 4.749300416999176
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0028,
+      "standard_error": 0.0025514440982899607,
+      "ci_low": -0.007800738541215596,
+      "ci_high": 0.002200738541215596,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0022036911876303633,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s3-rule_based.npy",
+      "elapsed_seconds": 4.913599499999691
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.2013,
+      "standard_error": 0.003243282733325732,
+      "ci_low": 0.19494328265100094,
+      "ci_high": 0.20765671734899907,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.20276839478715752,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s3-always_call.npy",
+      "elapsed_seconds": 5.068088374999206
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0065,
+      "standard_error": 0.004137932726461954,
+      "ci_low": -0.014610199114315058,
+      "ci_high": 0.0016101991143150597,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0031233106581746717,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s4-cfr.npy",
+      "elapsed_seconds": 5.231831958000839
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0011,
+      "standard_error": 0.004178710945078189,
+      "ci_low": -0.00929012295415658,
+      "ci_high": 0.007090122954156579,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.0030977131777961756,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s4-cfr_plus.npy",
+      "elapsed_seconds": 5.393892000000051
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1575,
+      "standard_error": 0.005121718285870474,
+      "ci_low": 0.14746161662073365,
+      "ci_high": 0.16753838337926635,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.16239933449395733,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s4-uniform.npy",
+      "elapsed_seconds": 5.550723791999189
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0194,
+      "standard_error": 0.002608264615492539,
+      "ci_low": -0.02451210470851559,
+      "ci_high": -0.014287895291484411,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.02027948090003044,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s4-rule_based.npy",
+      "elapsed_seconds": 5.713253999998415
+    },
+    {
+      "game": "kuhn",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.17365,
+      "standard_error": 0.0033982675839694006,
+      "ci_low": 0.16698951792559003,
+      "ci_high": 0.18031048207440997,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.17494006298415588,
+      "exact_inside_interval": true,
+      "paired_payoffs": "kuhn-deep_cfr_s4-always_call.npy",
+      "elapsed_seconds": 5.867298500001198
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.0288,
+      "standard_error": 0.014719331570155869,
+      "ci_low": -4.9359754008902745e-05,
+      "ci_high": 0.0576493597540089,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.00046049115312608857,
+      "exact_inside_interval": false,
+      "paired_payoffs": "leduc-cfr-cfr_plus.npy",
+      "elapsed_seconds": 6.194797542000742
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr",
+      "agent_b": "deep_cfr_s0",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1728,
+      "standard_error": 0.01606034898378451,
+      "ci_low": 0.1413222944126379,
+      "ci_high": 0.2042777055873621,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1992601912882613,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr-deep_cfr_s0.npy",
+      "elapsed_seconds": 6.509266332999687
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.6945,
+      "standard_error": 0.02466845816590142,
+      "ci_low": 0.6461507104407003,
+      "ci_high": 0.7428492895592997,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.703993238994502,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr-uniform.npy",
+      "elapsed_seconds": 6.796438042001682
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.14465,
+      "standard_error": 0.017890979471919543,
+      "ci_low": 0.10958432458689227,
+      "ci_high": 0.17971567541310773,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1261162157461992,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr-rule_based.npy",
+      "elapsed_seconds": 7.075976500000252
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.6112,
+      "standard_error": 0.014315863592359335,
+      "ci_low": 0.5831414229513875,
+      "ci_high": 0.6392585770486124,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.6305585223566917,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr-always_call.npy",
+      "elapsed_seconds": 7.391059249999671
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr_plus",
+      "agent_b": "deep_cfr_s0",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.18525,
+      "standard_error": 0.016049345840257478,
+      "ci_low": 0.1537938601776676,
+      "ci_high": 0.2167061398223324,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.1930545468640303,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr_plus-deep_cfr_s0.npy",
+      "elapsed_seconds": 7.6959276250017865
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr_plus",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.72495,
+      "standard_error": 0.024594058968044546,
+      "ci_low": 0.6767465301889783,
+      "ci_high": 0.7731534698110216,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7071800895417675,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr_plus-uniform.npy",
+      "elapsed_seconds": 7.993008707999252
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr_plus",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.1275,
+      "standard_error": 0.017769382377984033,
+      "ci_low": 0.0926726505116306,
+      "ci_high": 0.1623273494883694,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.12362516911848204,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr_plus-rule_based.npy",
+      "elapsed_seconds": 8.279287917001056
+    },
+    {
+      "game": "leduc",
+      "agent_a": "cfr_plus",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.6264,
+      "standard_error": 0.014654138609206536,
+      "ci_low": 0.5976784161014973,
+      "ci_high": 0.6551215838985026,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.6329327182019099,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-cfr_plus-always_call.npy",
+      "elapsed_seconds": 8.596421499998542
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s0",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.7083,
+      "standard_error": 0.02197292406438419,
+      "ci_low": 0.6652338601987736,
+      "ci_high": 0.7513661398012265,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.6749559112629081,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s0-uniform.npy",
+      "elapsed_seconds": 8.902160458001163
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s0",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.01885,
+      "standard_error": 0.016518754634519742,
+      "ci_low": -0.013526164153112794,
+      "ci_high": 0.05122616415311279,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.027614431561625324,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s0-rule_based.npy",
+      "elapsed_seconds": 9.209724083000765
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s0",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.787,
+      "standard_error": 0.015776818145591964,
+      "ci_low": 0.7560780046440018,
+      "ci_high": 0.8179219953559983,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7700669897432133,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s0-always_call.npy",
+      "elapsed_seconds": 9.527164750001248
+    },
+    {
+      "game": "leduc",
+      "agent_a": "uniform",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -1.23665,
+      "standard_error": 0.02519753300061202,
+      "ci_low": -1.286036257180459,
+      "ci_high": -1.187263742819541,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -1.2520833333333334,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-uniform-rule_based.npy",
+      "elapsed_seconds": 9.817018624999037
+    },
+    {
+      "game": "leduc",
+      "agent_a": "uniform",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0248,
+      "standard_error": 0.014208401875946033,
+      "ci_low": -0.05264795595472556,
+      "ci_high": 0.0030479559547255605,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.0,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-uniform-always_call.npy",
+      "elapsed_seconds": 10.126375832998747
+    },
+    {
+      "game": "leduc",
+      "agent_a": "rule_based",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 1.3424,
+      "standard_error": 0.015746778086389933,
+      "ci_low": 1.3115368820781312,
+      "ci_high": 1.3732631179218688,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 1.3333333333333333,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-rule_based-always_call.npy",
+      "elapsed_seconds": 10.435885375001817
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.2176,
+      "standard_error": 0.01770413419619168,
+      "ci_low": -0.25229946540199966,
+      "ci_high": -0.18290053459800032,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.19976952523491273,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s1-cfr.npy",
+      "elapsed_seconds": 10.738759832998767
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.19915,
+      "standard_error": 0.01725851133126311,
+      "ci_low": -0.2329760606360521,
+      "ci_high": -0.16532393936394787,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.19531190350541544,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s1-cfr_plus.npy",
+      "elapsed_seconds": 11.04480791700189
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.77425,
+      "standard_error": 0.023875682159256874,
+      "ci_low": 0.727454522861531,
+      "ci_high": 0.821045477138469,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7779232803447218,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s1-uniform.npy",
+      "elapsed_seconds": 11.353474374998768
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0082,
+      "standard_error": 0.018416356648892906,
+      "ci_low": -0.04429539575827485,
+      "ci_high": 0.02789539575827485,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.030215776142274622,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s1-rule_based.npy",
+      "elapsed_seconds": 11.656975750000129
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s1",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.7064,
+      "standard_error": 0.015727194233678375,
+      "ci_low": 0.6755752657241244,
+      "ci_high": 0.7372247342758756,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7100309562700482,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s1-always_call.npy",
+      "elapsed_seconds": 11.977679750001698
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.1992,
+      "standard_error": 0.017779301064851663,
+      "ci_low": -0.23404678975740387,
+      "ci_high": -0.1643532102425961,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.20107584026097147,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s2-cfr.npy",
+      "elapsed_seconds": 12.281639417000406
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.18045,
+      "standard_error": 0.017948913507497048,
+      "ci_low": -0.2156292240363187,
+      "ci_high": -0.1452707759636813,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.1958391028185981,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s2-cfr_plus.npy",
+      "elapsed_seconds": 12.586713625001721
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.7425,
+      "standard_error": 0.024430187441070537,
+      "ci_low": 0.6946177124799391,
+      "ci_high": 0.790382287520061,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.710337849419997,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s2-uniform.npy",
+      "elapsed_seconds": 12.890051417001814
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.0537,
+      "standard_error": 0.01883247453760979,
+      "ci_low": -0.09061097183348278,
+      "ci_high": -0.016789028166517214,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.02834274913681921,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s2-rule_based.npy",
+      "elapsed_seconds": 13.189725042000646
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s2",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.6811,
+      "standard_error": 0.0155937357762515,
+      "ci_low": 0.6505368394941133,
+      "ci_high": 0.7116631605058867,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7016857572285451,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s2-always_call.npy",
+      "elapsed_seconds": 13.51110420799887
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.18125,
+      "standard_error": 0.017400506357923933,
+      "ci_low": -0.21535436577429112,
+      "ci_high": -0.14714563422570887,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.19178818960218907,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s3-cfr.npy",
+      "elapsed_seconds": 13.816496832998382
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.1954,
+      "standard_error": 0.01753675106066618,
+      "ci_low": -0.22977140048475028,
+      "ci_high": -0.1610285995152497,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.18761902493370827,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s3-cfr_plus.npy",
+      "elapsed_seconds": 14.12968954200187
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.74,
+      "standard_error": 0.022864651303440488,
+      "ci_low": 0.6951861069261899,
+      "ci_high": 0.7848138930738101,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7269143476605211,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s3-uniform.npy",
+      "elapsed_seconds": 14.438801167001657
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.0053,
+      "standard_error": 0.0188781044939085,
+      "ci_low": -0.031700404904444396,
+      "ci_high": 0.042300404904444394,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.0018261718115034353,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s3-rule_based.npy",
+      "elapsed_seconds": 14.735666249998758
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s3",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.6655,
+      "standard_error": 0.015773580937300146,
+      "ci_low": 0.6345843494556641,
+      "ci_high": 0.6964156505443359,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.6822975031725385,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s3-always_call.npy",
+      "elapsed_seconds": 15.057235542000853
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "cfr",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.1981,
+      "standard_error": 0.0173623380936557,
+      "ci_low": -0.232129557350973,
+      "ci_high": -0.164070442649027,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.20415959574602505,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s4-cfr.npy",
+      "elapsed_seconds": 15.374351792001107
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "cfr_plus",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": -0.16205,
+      "standard_error": 0.01748162007521172,
+      "ci_low": -0.19631334573882736,
+      "ci_high": -0.12778665426117264,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": -0.19451096492915712,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s4-cfr_plus.npy",
+      "elapsed_seconds": 15.680172291999042
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "uniform",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.7563,
+      "standard_error": 0.023721241551193584,
+      "ci_low": 0.7098072208910855,
+      "ci_high": 0.8027927791089144,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7557856260279308,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s4-uniform.npy",
+      "elapsed_seconds": 15.99358950000169
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "rule_based",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.0595,
+      "standard_error": 0.018012174184197868,
+      "ci_low": 0.024196787315710053,
+      "ci_high": 0.09480321268428994,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.04932866472756849,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s4-rule_based.npy",
+      "elapsed_seconds": 16.313200707998476
+    },
+    {
+      "game": "leduc",
+      "agent_a": "deep_cfr_s4",
+      "agent_b": "always_call",
+      "pairs": 10000,
+      "hands": 20000,
+      "payoff_per_hand": 0.7915,
+      "standard_error": 0.01516000519708874,
+      "ci_low": 0.7617869358082661,
+      "ci_high": 0.8212130641917339,
+      "confidence": 0.95,
+      "ci_method": "normal approximation over independent duplicate-deal pair means",
+      "exact_payoff_per_hand": 0.7932971476761559,
+      "exact_inside_interval": true,
+      "paired_payoffs": "leduc-deep_cfr_s4-always_call.npy",
+      "elapsed_seconds": 16.666600874999858
+    }
+  ],
+  "benchmark_experiment": "20261103T183836414472Z-both-inference_benchmark-s2026",
+  "diagnostic_experiment": "20261103T191154701499Z-both-policy_diagnostics-s0",
+  "policy_diagnostics": [
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-cfr-s0",
+      "game": "kuhn",
+      "algorithm": "cfr",
+      "seed": 0,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.7972103453254344,
+            0.2027896546745655
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.46380338768342416,
+            0.5361966123165758
+          ]
+        }
+      ]
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-cfr_plus-s0",
+      "game": "kuhn",
+      "algorithm": "cfr_plus",
+      "seed": 0,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.7670127147471619,
+            0.23298728525283802
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.4336704084404783,
+            0.5663295915595218
+          ]
+        }
+      ]
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s0",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.8778755068778992,
+            0.12212449312210083
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.49632519483566284,
+            0.5036748051643372
+          ]
+        }
+      ],
+      "strategy_samples_seen": 37402,
+      "strategy_samples_retained": 37402,
+      "strategy_reservoir_distinct_infosets": 12,
+      "total_infosets": 12,
+      "strategy_reservoir_coverage": 1.0,
+      "advantage_samples_seen": [
+        14752,
+        10000
+      ],
+      "weighted_strategy_mse": 0.11351347505390683,
+      "conditional_target_variance": 0.11303832390510474,
+      "excess_strategy_fit_mse": 0.00047515114880209943,
+      "observed_information_sets": 12,
+      "reservoir_mean_exploitability": 0.017893075581092377,
+      "neural_exploitability": 0.027161032087134836
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s1",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 1,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.7316435793532008,
+            0.2683564206467992
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.4238199510735317,
+            0.5761800489264682
+          ]
+        }
+      ],
+      "strategy_samples_seen": 36795,
+      "strategy_samples_retained": 36795,
+      "strategy_reservoir_distinct_infosets": 12,
+      "total_infosets": 12,
+      "strategy_reservoir_coverage": 1.0,
+      "advantage_samples_seen": [
+        14418,
+        10000
+      ],
+      "weighted_strategy_mse": 0.12156946740138282,
+      "conditional_target_variance": 0.11857945337782616,
+      "excess_strategy_fit_mse": 0.002990014023556673,
+      "observed_information_sets": 12,
+      "reservoir_mean_exploitability": 0.012764616209894143,
+      "neural_exploitability": 0.02445488759173744
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s2",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 2,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.7967691777692367,
+            0.20323082223076325
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.4443526764792791,
+            0.5556473235207209
+          ]
+        }
+      ],
+      "strategy_samples_seen": 36527,
+      "strategy_samples_retained": 36527,
+      "strategy_reservoir_distinct_infosets": 12,
+      "total_infosets": 12,
+      "strategy_reservoir_coverage": 1.0,
+      "advantage_samples_seen": [
+        14558,
+        10000
+      ],
+      "weighted_strategy_mse": 0.11252731527313675,
+      "conditional_target_variance": 0.11149301341001244,
+      "excess_strategy_fit_mse": 0.0010343018631242993,
+      "observed_information_sets": 12,
+      "reservoir_mean_exploitability": 0.022641952096727744,
+      "neural_exploitability": 0.028695696272010005
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s3",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 3,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.8059229730677162,
+            0.19407702693228385
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.3668039252401568,
+            0.6331960747598432
+          ]
+        }
+      ],
+      "strategy_samples_seen": 36739,
+      "strategy_samples_retained": 36739,
+      "strategy_reservoir_distinct_infosets": 12,
+      "total_infosets": 12,
+      "strategy_reservoir_coverage": 1.0,
+      "advantage_samples_seen": [
+        14587,
+        10000
+      ],
+      "weighted_strategy_mse": 0.1044816063505758,
+      "conditional_target_variance": 0.10314244136780301,
+      "excess_strategy_fit_mse": 0.001339164982772801,
+      "observed_information_sets": 12,
+      "reservoir_mean_exploitability": 0.006987828249421096,
+      "neural_exploitability": 0.0214646566786819
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-kuhn-deep_cfr-s4",
+      "game": "kuhn",
+      "algorithm": "deep_cfr",
+      "seed": 4,
+      "observations": [
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,0,-1,[[]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 0,
+            "public_card": null,
+            "history": [
+              []
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.8214263197567118,
+            0.17857368024328826
+          ]
+        },
+        {
+          "information_state": {
+            "key": "[\"kuhn\",0,1,-1,[[0,1]]]",
+            "game": "kuhn",
+            "player": 0,
+            "private_card": 1,
+            "public_card": null,
+            "history": [
+              [
+                0,
+                1
+              ]
+            ],
+            "legal_actions": [
+              0,
+              1
+            ]
+          },
+          "probabilities": [
+            0.4115167610933327,
+            0.5884832389066673
+          ]
+        }
+      ],
+      "strategy_samples_seen": 37068,
+      "strategy_samples_retained": 37068,
+      "strategy_reservoir_distinct_infosets": 12,
+      "total_infosets": 12,
+      "strategy_reservoir_coverage": 1.0,
+      "advantage_samples_seen": [
+        14423,
+        10000
+      ],
+      "weighted_strategy_mse": 0.12369864142226805,
+      "conditional_target_variance": 0.12085295325052735,
+      "excess_strategy_fit_mse": 0.0028456881717407,
+      "observed_information_sets": 12,
+      "reservoir_mean_exploitability": 0.010946240894959297,
+      "neural_exploitability": 0.026716481452497234
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-cfr-s0",
+      "game": "leduc",
+      "algorithm": "cfr",
+      "seed": 0,
+      "observations": []
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-cfr_plus-s0",
+      "game": "leduc",
+      "algorithm": "cfr_plus",
+      "seed": 0,
+      "observations": []
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s0",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 0,
+      "observations": [],
+      "strategy_samples_seen": 280672,
+      "strategy_samples_retained": 200000,
+      "strategy_reservoir_distinct_infosets": 906,
+      "total_infosets": 936,
+      "strategy_reservoir_coverage": 0.967948717948718,
+      "advantage_samples_seen": [
+        111340,
+        59466
+      ],
+      "weighted_strategy_mse": 0.15992865227659808,
+      "conditional_target_variance": 0.15593902040760038,
+      "excess_strategy_fit_mse": 0.003989631868997716,
+      "observed_information_sets": 906,
+      "reservoir_mean_exploitability": 0.6826839901726789,
+      "neural_exploitability": 0.6758251881398607
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s1",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 1,
+      "observations": [],
+      "strategy_samples_seen": 282984,
+      "strategy_samples_retained": 200000,
+      "strategy_reservoir_distinct_infosets": 901,
+      "total_infosets": 936,
+      "strategy_reservoir_coverage": 0.9626068376068376,
+      "advantage_samples_seen": [
+        112720,
+        60410
+      ],
+      "weighted_strategy_mse": 0.15608927535988754,
+      "conditional_target_variance": 0.1511144117850744,
+      "excess_strategy_fit_mse": 0.00497486357481307,
+      "observed_information_sets": 901,
+      "reservoir_mean_exploitability": 0.6798556238477045,
+      "neural_exploitability": 0.7754528373943802
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s2",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 2,
+      "observations": [],
+      "strategy_samples_seen": 283930,
+      "strategy_samples_retained": 200000,
+      "strategy_reservoir_distinct_infosets": 908,
+      "total_infosets": 936,
+      "strategy_reservoir_coverage": 0.9700854700854701,
+      "advantage_samples_seen": [
+        119178,
+        60167
+      ],
+      "weighted_strategy_mse": 0.18188995028320254,
+      "conditional_target_variance": 0.1735876226422751,
+      "excess_strategy_fit_mse": 0.008302327640927473,
+      "observed_information_sets": 908,
+      "reservoir_mean_exploitability": 0.7471639059130553,
+      "neural_exploitability": 0.8414817971291247
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s3",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 3,
+      "observations": [],
+      "strategy_samples_seen": 281798,
+      "strategy_samples_retained": 200000,
+      "strategy_reservoir_distinct_infosets": 888,
+      "total_infosets": 936,
+      "strategy_reservoir_coverage": 0.9487179487179487,
+      "advantage_samples_seen": [
+        114312,
+        58622
+      ],
+      "weighted_strategy_mse": 0.16873704141504245,
+      "conditional_target_variance": 0.16401025309064438,
+      "excess_strategy_fit_mse": 0.004726788324398107,
+      "observed_information_sets": 888,
+      "reservoir_mean_exploitability": 0.68599041429102,
+      "neural_exploitability": 0.7480810330806451
+    },
+    {
+      "experiment_id": "study-20261103T183127810340Z-leduc-deep_cfr-s4",
+      "game": "leduc",
+      "algorithm": "deep_cfr",
+      "seed": 4,
+      "observations": [],
+      "strategy_samples_seen": 280036,
+      "strategy_samples_retained": 200000,
+      "strategy_reservoir_distinct_infosets": 899,
+      "total_infosets": 936,
+      "strategy_reservoir_coverage": 0.9604700854700855,
+      "advantage_samples_seen": [
+        112735,
+        60807
+      ],
+      "weighted_strategy_mse": 0.1760820860513733,
+      "conditional_target_variance": 0.16874972244171424,
+      "excess_strategy_fit_mse": 0.007332363609659088,
+      "observed_information_sets": 899,
+      "reservoir_mean_exploitability": 0.6756825765659498,
+      "neural_exploitability": 0.7289123770150536
+    }
+  ],
+  "memory_measurement": "peak RSS sampled at iteration boundaries",
+  "time_measurement": "total offline wall clock includes strategy fitting and evaluation"
+}
